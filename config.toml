@@ -2,8 +2,6 @@ baseurl      = "http://ruby2elixir.github.io/"
 languageCode = "en-us"
 title        = "Ruby 2 Elixir Blog"
 theme        = "cactus"
-
-
 canonifyurls = true
 uglyurls     = true
 
@@ -12,23 +10,22 @@ uglyurls     = true
   post = "posts/:year/:month-:day-:slug.html"
 
 [params]
-  description           = "Useful information for your future migration from Ruby to Elixir"
-  author                = "Roman Heinrich"
-  twitter_username      = 'mindreframer'
-  github_username       = 'mindreframer'
-  stackoverflow_user    = 'mindreframer'
-  stackoverflow_user_id = '785134'
-  delicious_user        = 'mindreframer'
-  email_md5             = 'b540757705fa11df3313d5396a3649d9'
-  gravatar_id           = 'b540757705fa11df3313d5396a3649d9'
-  DateForm              = '2006-Jan-02'
-  SyntaxHighlightTheme  = 'tomorrow'
-  subscribe_rss         = 'index.xml'
-  bio                   = "Great and not so great stuff about us..."
+  description = "Useful information for your future migration from Ruby to Elixir"
+  bio         = "Why the future of web development is changing once again..."
+  name        = "RUBY 2 ELIXIR"
 
+[params.authors]
+  [params.authors.mindreframer]
+    name             = "Roman Heinrich"
+    gravatar_id      = 'b540757705fa11df3313d5396a3649d9'
+    facebook         = "https://www.facebook.com/derekperkins"
+    github           = "https://github.com/mindreframer/"
+    github_username  = 'mindreframer'
+    twitter          = "https://twitter.com/mindreframer"
+    twitter_username = 'mindreframer'
+    gplus            = "https://plus.google.com/+mindreframer"
+    bio              = "Hopeless practitioner in search for the perfect prog language..."
 
-[Author]
-  email = 'roman.heinrich@gmail.com'
 
 [taxonomies]
   category = "categories"
