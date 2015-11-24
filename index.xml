@@ -22,6 +22,36 @@
     </item>
     
     <item>
+      <title>Resources For Beginners</title>
+      <link>http://ruby2elixir.github.io/resources-for-beginners.html</link>
+      <pubDate>Tue, 24 Nov 2015 23:35:51 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/resources-for-beginners.html</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/gabriele.lana/the-magic-of-elixir&#34;&gt;http://www.slideshare.net/gabriele.lana/the-magic-of-elixir&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;compared-to-rails-ruby:71d7c0ddf2c32144069d9e99578400e2&#34;&gt;Compared to Rails / Ruby&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dockyard.com/blog/2015/11/18/phoenix-is-not-rails&#34;&gt;https://dockyard.com/blog/2015/11/18/phoenix-is-not-rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;aggregators:71d7c0ddf2c32144069d9e99578400e2&#34;&gt;Aggregators:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://elixirpipe.com/&#34;&gt;http://elixirpipe.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;weekly-newsletters:71d7c0ddf2c32144069d9e99578400e2&#34;&gt;Weekly Newsletters:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://elixirdigest.net/&#34;&gt;http://elixirdigest.net/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://ruby2elixir.github.io/about.html</link>
       <pubDate>Tue, 24 Nov 2015 18:35:51 +0100</pubDate>
