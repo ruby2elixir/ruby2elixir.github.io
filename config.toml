@@ -1,0 +1,36 @@
+baseurl      = "http://ruby2elixir.github.io/"
+languageCode = "en-us"
+title        = "Ruby 2 Elixir Blog"
+theme        = "cactus"
+
+
+
+canonifyurls = true
+uglyurls     = true
+
+
+[permalinks]
+  post = "posts/:year/:month-:day-:slug.html"
+
+[params]
+  description           = "Bits and pieces to remember"
+  author                = "Roman Heinrich"
+  twitter_username      = 'mindreframer'
+  github_username       = 'mindreframer'
+  stackoverflow_user    = 'mindreframer'
+  stackoverflow_user_id = '785134'
+  delicious_user        = 'mindreframer'
+  email_md5             = 'b540757705fa11df3313d5396a3649d9'
+  gravatar_id           = 'b540757705fa11df3313d5396a3649d9'
+  DateForm              = '2006-Jan-02'
+  SyntaxHighlightTheme  = 'tomorrow'
+  subscribe_rss         = 'index.xml'
+
+
+[Author]
+  email = 'roman.heinrich@gmail.com'
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+
