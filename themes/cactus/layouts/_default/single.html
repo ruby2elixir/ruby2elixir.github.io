@@ -1,7 +1,8 @@
+    {{ $author := index .Site.Params.authors .Params.author }}
+
     {{ partial "head.html" . }}
     <body>
        {{ partial "nav.html" . }}
-
         <section id="wrapper">
             <article class="post">
                 <header>
@@ -13,6 +14,13 @@
                 </section>
             </article>
             <footer id="post-meta" class="clearfix">
+                {{ with $author }}
+                <div>
+                    <p>Author:</p>
+                    <p>{{ $author.name }} - {{ $author.bio }}</p>
+                </div>
+                {{ end }}
+
                 {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
                         <img class="avatar" src="{{ .Site.BaseURL }}images/avatar.png">
                         <div>
