@@ -8,7 +8,28 @@
     <language>en-us</language>
     <managingEditor>roman.heinrich@gmail.com</managingEditor>
     <webMaster>roman.heinrich@gmail.com</webMaster>
+    <lastBuildDate>Tue, 24 Nov 2015 18:36:00 +0100</lastBuildDate>
     <atom:link href="http://ruby2elixir.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>http://ruby2elixir.github.io/posts/2015/11-24-first.html</link>
+      <pubDate>Tue, 24 Nov 2015 18:36:00 +0100</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://ruby2elixir.github.io/posts/2015/11-24-first.html</guid>
+      <description>&lt;p&gt;Come on!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://ruby2elixir.github.io/about.html</link>
+      <pubDate>Tue, 24 Nov 2015 18:35:51 +0100</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://ruby2elixir.github.io/about.html</guid>
+      <description>&lt;p&gt;An initiative to help you move your Rails application to Elixir&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
