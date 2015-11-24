@@ -6,18 +6,18 @@
     <description>Recent content in Posts on Ruby 2 Elixir Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>roman.heinrich@gmail.com</managingEditor>
-    <webMaster>roman.heinrich@gmail.com</webMaster>
-    <lastBuildDate>Tue, 24 Nov 2015 18:36:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2015 18:36:00 +0100</lastBuildDate>
     <atom:link href="http://ruby2elixir.github.io/post.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
-      <link>http://ruby2elixir.github.io/posts/2015/11-24-first.html</link>
-      <pubDate>Tue, 24 Nov 2015 18:36:00 +0100</pubDate>
-      <author>roman.heinrich@gmail.com</author>
-      <guid>http://ruby2elixir.github.io/posts/2015/11-24-first.html</guid>
-      <description>&lt;p&gt;Come on!&lt;/p&gt;
+      <title>Why Even Bother to Rewrite Your Rails Application</title>
+      <link>http://ruby2elixir.github.io/posts/2015/11-25-why-even-bother-to-rewrite-your-rails-application.html</link>
+      <pubDate>Wed, 25 Nov 2015 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2015/11-25-why-even-bother-to-rewrite-your-rails-application.html</guid>
+      <description>
+
+&lt;h2 id=&#34;because-you-are-a-system-builder:f60f87379a53f8fc8f65a11459394b09&#34;&gt;Because you are a system builder!&lt;/h2&gt;
 </description>
     </item>
     
