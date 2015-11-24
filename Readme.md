@@ -2,15 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 ### Setup github pages:
 
   https://gohugo.io/tutorials/github-pages-blog/
