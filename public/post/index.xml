@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ruby 2 Elixir Blog</title>
+    <link>http://localhost:1313/post.html</link>
+    <description>Recent content in Posts on Ruby 2 Elixir Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>roman.heinrich@gmail.com</managingEditor>
+    <webMaster>roman.heinrich@gmail.com</webMaster>
+    <lastBuildDate>Tue, 24 Nov 2015 18:36:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/post.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>http://localhost:1313/posts/2015/11-24-first.html</link>
+      <pubDate>Tue, 24 Nov 2015 18:36:00 +0100</pubDate>
+      <author>roman.heinrich@gmail.com</author>
+      <guid>http://localhost:1313/posts/2015/11-24-first.html</guid>
+      <description>&lt;p&gt;Come on!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
