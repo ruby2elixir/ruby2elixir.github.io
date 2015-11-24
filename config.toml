@@ -4,7 +4,6 @@ title        = "Ruby 2 Elixir Blog"
 theme        = "cactus"
 
 
-
 canonifyurls = true
 uglyurls     = true
 
@@ -13,7 +12,7 @@ uglyurls     = true
   post = "posts/:year/:month-:day-:slug.html"
 
 [params]
-  description           = "Bits and pieces to remember"
+  description           = "Useful information for your future migration from Ruby to Elixir"
   author                = "Roman Heinrich"
   twitter_username      = 'mindreframer'
   github_username       = 'mindreframer'
@@ -34,4 +33,3 @@ uglyurls     = true
 [taxonomies]
   category = "categories"
   tag      = "tags"
-
