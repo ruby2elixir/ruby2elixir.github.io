@@ -25,6 +25,7 @@ uglyurls     = true
   DateForm              = '2006-Jan-02'
   SyntaxHighlightTheme  = 'tomorrow'
   subscribe_rss         = 'index.xml'
+  bio                   = "Great and not so great stuff about us..."
 
 
 [Author]
