@@ -42,7 +42,7 @@ It should:
 
 
 
-I am absolutely sure that Elixir is currently __THE ONLY LANGUAGE ( PLATFORM )__ that gives you all that in a nice package.
+I am absolutely sure that Elixir is currently __THE ONLY LANGUAGE / PLATFORM__ that gives you all that in a nice package.
 
 But it is hard to convince fellow developers when they see their cozy "Ruby" world threatened. "Why?" they say. "I'm totally fine with Rails. It solves my problems and that's enough."
 
