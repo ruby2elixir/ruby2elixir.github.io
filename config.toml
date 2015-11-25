@@ -10,7 +10,7 @@ uglyurls     = true
   post = "posts/:year/:month-:day-:slug.html"
 
 [params]
-  description = "Useful information for your future migration from Ruby to Elixir"
+  description = "Community-driven initiative to switch from Ruby to Elixir"
   bio         = "Why the future of web development is changing once again..."
   name        = "RUBY 2 ELIXIR"
 
