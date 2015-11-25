@@ -15,9 +15,46 @@
       <pubDate>Wed, 25 Nov 2015 18:36:00 +0100</pubDate>
       
       <guid>http://ruby2elixir.github.io/posts/2015/11-25-why-even-bother-to-rewrite-your-rails-application.html</guid>
-      <description>
+      <description>&lt;p&gt;Hey there, I believe that our future as software developers is gonna change soon.
+While there are many kinds of software I have chosen to write web application because my ultimate goal is to build my own business. When you have that perspective you treat any superficial level of complexity as unacceptable.&lt;/p&gt;
 
-&lt;h2 id=&#34;because-you-are-a-system-builder:f60f87379a53f8fc8f65a11459394b09&#34;&gt;Because you are a system builder!&lt;/h2&gt;
+&lt;p&gt;This is the reason why in 2007 I have learned Ruby and why I wrote my first web applications in Rails. I had to be able to maintain my applications in the long run. To peek behind the curtain, I chose a path of apprenticeship and joined a then young startup named DaWanda and watched it grow from 12 people to 200 people. It grew from a single largish Rails app deployed on 5 dedicated server to a beast of multiple apps with slow test suites and many moving parts&amp;hellip; To keep the thing running required quite a lot mental effort and it was a dedicated job in itself. You build abstractions upon abstractions and depend on a hefty amount of third-party libraries just to keep your application alive. Timeouts, network partitions, lots of small inconsistencies, memory leaks, hanging processes : it all becomes your daily business.&lt;/p&gt;
+
+&lt;p&gt;This is not how I envision my own applications in the future&amp;hellip; They should fit into my little brain. They should grow with grace, be maintainable, resource-efficient, provide just the right abstractions to help me in the beginning, but get out of the way when I&amp;rsquo;m going against recommendations.&lt;/p&gt;
+
+&lt;p&gt;Playing with different languages showed some promise, but the lost productivity compared to Rails was hard to justify.&lt;/p&gt;
+
+&lt;p&gt;That is until Elixir + Phoenix happened.&lt;/p&gt;
+
+&lt;p&gt;It was not an instant insight, rather a slow process. You discover the author&amp;rsquo;s intents while solving small problems, you gather all the small bits of wisdom in discussions, you always ask the same question: &amp;ldquo;Where is the catch? It this too good to be true?&amp;rdquo;. So, I&amp;rsquo;m a careful &amp;ldquo;buyer&amp;rdquo; into new technogy, there is just too much &amp;ldquo;innovation&amp;rdquo; happening right now.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m in this game for a long run, so cutting corners in the beginning only to slow down in the future is not an option.
+I also don&amp;rsquo;t want to buy into the &amp;ldquo;microservices&amp;rdquo; craziness that is all the range right now, you need many teams to compensate the trade-offs of that approach.&lt;/p&gt;
+
+&lt;p&gt;I want a technology that will help me to ship products with certain guarantees.&lt;/p&gt;
+
+&lt;p&gt;It should:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;be easily composable&lt;/li&gt;
+&lt;li&gt;scale vertically&lt;/li&gt;
+&lt;li&gt;scale horizontally&lt;/li&gt;
+&lt;li&gt;be reliable&lt;/li&gt;
+&lt;li&gt;be introspectable&lt;/li&gt;
+&lt;li&gt;have great tooling&lt;/li&gt;
+&lt;li&gt;provide productivity during development&lt;/li&gt;
+&lt;li&gt;provide productivity during production&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am absolutely sure that Elixir is currently &lt;strong&gt;THE ONLY LANGUAGE ( PLATFORM )&lt;/strong&gt; that gives you all that in a nice package.&lt;/p&gt;
+
+&lt;p&gt;But it is hard to convince fellow developers when they see their cozy &amp;ldquo;Ruby&amp;rdquo; world threatened. &amp;ldquo;Why?&amp;rdquo; they say. &amp;ldquo;I&amp;rsquo;m totally fine with Rails. It solves my problems and that&amp;rsquo;s enough.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;But&amp;hellip; The world is evolving. The applications of future demand to be more reliable, more realtime, much faster, cope with much larger traffic from many more devices than today.&lt;/p&gt;
+
+&lt;p&gt;Rails offers no solution for distributed systems - embrace the majestic monolith. No solution for concurrent systems - background jobs as a poor abstraction e.g Sidekiq. No reliable solution for realtime systems - ActionCable is a hack.&lt;/p&gt;
+
+&lt;p&gt;And it is not Rails&amp;rsquo; fault, really. Ruby as a Virtual Machine helps you in the beginning, but hinders you when your application matures. When you outgrow that single Rails app.&lt;/p&gt;
 </description>
     </item>
     
