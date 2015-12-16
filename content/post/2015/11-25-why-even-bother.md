@@ -47,8 +47,16 @@ I am absolutely sure that Elixir is currently __THE ONLY LANGUAGE / PLATFORM__ t
 But it is hard to convince fellow developers when they see their cozy "Ruby" world threatened. "Why?" they say. "I'm totally fine with Rails. It solves my problems and that's enough."
 
 
-But... The world is evolving. The applications of future demand to be more reliable, more realtime, much faster, cope with much larger traffic from many more devices than today.
+But... The world is evolving. The applications of future demand to be more reliable, more realtime, much faster, cope with much more traffic from many more devices than today.
 
 Rails offers no solution for distributed systems - embrace the majestic monolith. No solution for concurrent systems - background jobs as a poor abstraction e.g Sidekiq. No reliable solution for realtime systems - ActionCable is a hack.
 
-And it is not Rails' fault, really. Ruby as a Virtual Machine helps you in the beginning, but hinders you when your application matures. When you outgrow that single Rails app.
+And it is not Rails' fault, really. Ruby as a Virtual Machine helps you in the beginning, but hinders you when your application matures. When you outgrow that single Rails app. When it's time to break it apart. Be prepared for the zoo of technologies just to keep it somehow alive. And let me tell you one thing: you will probably never feel like you control the system.
+
+But it's ok, you will earn money with it. And Rails is not dying, as some might say.
+
+It just got... Well... Old.
+
+Not appropriate for the future we are about to face.
+
+Ambitious, demanding apps require modern tooling and new approaches. The world is realtime.
