@@ -16,6 +16,7 @@ uglyurls     = true
   bio             = "Why the future of web development is changing once again..."
   name            = "RUBY 2 ELIXIR"
   disqusShortname = "ruby2elixir"
+  googleAnalytics = "UA-71514130-1"
 
 [params.authors]
   [params.authors.mindreframer]
