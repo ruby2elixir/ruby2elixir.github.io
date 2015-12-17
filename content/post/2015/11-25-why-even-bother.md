@@ -64,3 +64,19 @@ It just got... Well... Old.
 Not appropriate for the future we are about to face.
 
 Ambitious, demanding apps require modern tooling and new approaches. The world is realtime.
+
+It is hard to scale Rails apps and keeping quality up. Usually you'll end up hiding behind caching, like MemCached, Redis, Varnish, Fastly... That's it. And you'll spent a lot of time ironing all the bugs that occur only in production and you will have a lot of hard time doing that. You'll have to employ large teams of developers later in the game to overcome limitation of Rails. And maybe you'll fine with that, because that is the current state of affairs in the industry. Many decide to jump ship and build microservice architectures. But there is no free lunch here, you'll still need multiple teams of developers responsible for them. And it certainly requires quite a lot of unlearning and patience to become even slightly productive with that approach.
+
+Elixir + Phoenix combo gives you both: write as monolithic app now, easily split up into several applications later, use Erlang VM as operating system to write your application. Currently there is no alternative for that approach, that is more elegant and efficient.
+
+Watch this space closely, Elixir is gaining steam with incredible speed and will surpass Rails in 2-3 years easily.
+
+Phoenix is not a clone of Rails, it is the ultimate combination of years of experience with demanding Rails applications combined into a very robust, simple, extensible and highly performant package, standing on shoulders of over 30 years experience building highly available soft-realtime systems.
+
+It is very hard to top that.
+
+
+Think like a professional and invest in your future now. Go to http://elixir-lang.org/ and learn Elixir, you wont regret this decision a single minute. I certainly did not!
+
+Cheers and all the best,
+Roman
