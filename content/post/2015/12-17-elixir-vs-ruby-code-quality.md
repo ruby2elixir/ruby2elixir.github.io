@@ -103,7 +103,7 @@ Ask questions on Slack.
 
 Become active contributer.
 
-Solve your next problem with Elixir and be amazed, how it shapes your thinking.
+Solve your next problem with Elixir and be amazed how it shapes your thinking.
 
 Be prepared for the multi-core, parallel, concurrent, real-time future of software development! Don't miss out, it will be here faster than you think!
 
