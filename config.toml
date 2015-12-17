@@ -6,13 +6,16 @@ canonifyurls = true
 uglyurls     = true
 
 
+
+
 [permalinks]
   post = "posts/:year/:month-:day-:slug.html"
 
 [params]
-  description = "Community-driven initiative to switch from Ruby to Elixir"
-  bio         = "Why the future of web development is changing once again..."
-  name        = "RUBY 2 ELIXIR"
+  description     = "Community-driven initiative to switch from Ruby to Elixir"
+  bio             = "Why the future of web development is changing once again..."
+  name            = "RUBY 2 ELIXIR"
+  disqusShortname = "ruby2elixir"
 
 [params.authors]
   [params.authors.mindreframer]
