@@ -58,6 +58,7 @@ Issues (only bugs): 871, Pull Requests: 119
 Issues: 412, Pull Requests: 464
 
 
+<hr>
 
 ## Summary:
 
@@ -68,6 +69,7 @@ Issues: 412, Pull Requests: 464
   - (871 + 412) = **1283 Issues**, (119 + 464) = **583 Pull Requests**
 
 
+<hr>
 
 Feel free to draw your own conclusions on presented facts. I'm biased and you should be careful just taking my words as the only valid perspective.
 
@@ -81,13 +83,16 @@ I'll try my short resume:
 Considered alone any of those facts does not make a big difference, but combined they allow to reach **extraordinary developer productivity without sacrificing code quality in long term**.
 
 
-Elixir provides a unique and unprecedented opportunity for any web developer:
+<hr>
 
-  - prolific, energetic and humble language designer who left one of the "hottest" developer communities to build the language for future web applications
-  - battle-tested and highly optimized for robust distributed soft-realtime systems runtime (BEAM - Erlang VM)
-  - huge focus on developer happiness
-  - makes the right trade-offs between easy and simple, so you can always build more complex systems by combining simpler blocks
-  - fanatic and enthusiastic developer community, welcoming beginners and making sure you get that experience of success by small baby steps
+### Elixir provides a unique and unprecedented opportunity for any web developer:
+
+
+  - **prolific, energetic and humble** language designer who left one of the "hottest" developer communities to build the language for future web applications
+  - **battle-tested and highly optimized for robust distributed soft-realtime systems** runtime (BEAM - Erlang VM)
+  - huge focus on **developer happiness**
+  - makes the right trade-offs between easy and simple, so you can always **build more complex systems by combining simpler blocks**
+  - **fanatic and enthusiastic developer community**, welcoming beginners and making sure you get that experience of **success by small baby steps**
 
 
 Many developers are afraid when they hear the word "functional programming"... You shouldn't be.
@@ -95,17 +100,19 @@ Many developers are afraid when they hear the word "functional programming"... Y
 
 Just go to http://elixir-lang.org/ and try it out.
 
-It takes only 5 minutes to run your first Elixir code.
+It takes only **5 minutes to run your first Elixir code**.
 
-Watch videos, work with tutorials.
+**Watch videos, work with tutorials**.
 
-Ask questions on Slack.
+Ask questions on **Slack**.
 
 Become active contributer.
 
-Solve your next problem with Elixir and be amazed how it shapes your thinking.
+Join your local **Elixir Meetup**.
 
-Be prepared for the multi-core, parallel, concurrent, real-time future of software development! Don't miss out, it will be here faster than you think!
+Solve your next problem with Elixir and be amazed how it **shapes your thinking**.
+
+Be prepared for the **multi-core, parallel, concurrent, real-time future of software development**! Don't miss out, because it is already here!
 
 All the best,
 Roman
