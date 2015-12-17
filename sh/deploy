@@ -1,4 +1,5 @@
 hugo
+git add public
 git commit  -m "update public" -a
 #git subtree push --prefix public origin master
 git push origin `git subtree split --prefix public source`:master --force
