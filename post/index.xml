@@ -247,6 +247,21 @@ There is a lot of ways to write software and I have chosen to write web applicat
 &lt;p&gt;Not appropriate for the future we are about to face.&lt;/p&gt;
 
 &lt;p&gt;Ambitious, demanding apps require modern tooling and new approaches. The world is realtime.&lt;/p&gt;
+
+&lt;p&gt;It is hard to scale Rails apps and keeping quality up. Usually you&amp;rsquo;ll end up hiding behind caching, like MemCached, Redis, Varnish, Fastly&amp;hellip; That&amp;rsquo;s it. And you&amp;rsquo;ll spent a lot of time ironing all the bugs that occur only in production and you will have a lot of hard time doing that. You&amp;rsquo;ll have to employ large teams of developers later in the game to overcome limitation of Rails. And maybe you&amp;rsquo;ll fine with that, because that is the current state of affairs in the industry. Many decide to jump ship and build microservice architectures. But there is no free lunch here, you&amp;rsquo;ll still need multiple teams of developers responsible for them. And it certainly requires quite a lot of unlearning and patience to become even slightly productive with that approach.&lt;/p&gt;
+
+&lt;p&gt;Elixir + Phoenix combo gives you both: write as monolithic app now, easily split up into several applications later, use Erlang VM as operating system to write your application. Currently there is no alternative for that approach, that is more elegant and efficient.&lt;/p&gt;
+
+&lt;p&gt;Watch this space closely, Elixir is gaining steam with incredible speed and will surpass Rails in 2-3 years easily.&lt;/p&gt;
+
+&lt;p&gt;Phoenix is not a clone of Rails, it is the ultimate combination of years of experience with demanding Rails applications combined into a very robust, simple, extensible and highly performant package, standing on shoulders of over 30 years experience building highly available soft-realtime systems.&lt;/p&gt;
+
+&lt;p&gt;It is very hard to top that.&lt;/p&gt;
+
+&lt;p&gt;Think like a professional and invest in your future now. Go to &lt;a href=&#34;http://elixir-lang.org/&#34;&gt;http://elixir-lang.org/&lt;/a&gt; and learn Elixir, you wont regret this decision a single minute. I certainly did not!&lt;/p&gt;
+
+&lt;p&gt;Cheers and all the best,
+Roman&lt;/p&gt;
 </description>
     </item>
     
