@@ -27,7 +27,7 @@ Issues: 5, Pull Requests: 2
 <hr>
 
 ### Ecto
-{{< post_image src="2015/status_phoenix_20151217.png" >}}
+{{< post_image src="2015/status_ecto_20151217.png" >}}
 
 Issues: 22, Pull Requests: 6
 
