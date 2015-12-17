@@ -1,0 +1,10 @@
+{{ $src   := .Get "src" }}
+{{ $title := .Get "title" }}
+<figure >
+    <img src="/media/posts/{{$src}}" />
+    <figcaption>
+        {{ with .Get "title"}}
+          <h4>{{.}}</h4>
+        {{ end }}
+    </figcaption>
+</figure>
