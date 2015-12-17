@@ -53,6 +53,22 @@
 
 &lt;hr&gt;
 
+&lt;h3 id=&#34;ecto:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Ecto&lt;/h3&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_phoenix_20151217.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Issues: 22, Pull Requests: 6&lt;/p&gt;
+
+&lt;hr&gt;
+
 &lt;h3 id=&#34;erlang-bugs-are-kinda-hard-to-find-and-report-http-bugs-erlang-org-secure-dashboard-jspa:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Erlang (Bugs are kinda hard to find and report - &lt;a href=&#34;http://bugs.erlang.org/secure/Dashboard.jspa&#34;&gt;http://bugs.erlang.org/secure/Dashboard.jspa&lt;/a&gt;)&lt;/h3&gt;
 
 &lt;p&gt;
@@ -105,7 +121,7 @@
 
 &lt;h3 id=&#34;rails:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Rails&lt;/h3&gt;
 
-&lt;p&gt;
+
 
 &lt;figure &gt;
     &lt;img src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_rails_20151217.png&#34; /&gt;
@@ -113,16 +129,16 @@
         
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;Issues: 412, Pull Requests: 464&lt;/p&gt;
 
 &lt;h2 id=&#34;summary:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Summary:&lt;/h2&gt;
 
-&lt;h5 id=&#34;erlang-elixir-phoenix:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Erlang + Elixir + Phoenix&lt;/h5&gt;
+&lt;h5 id=&#34;erlang-elixir-phoenix-ecto:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Erlang + Elixir + Phoenix + Ecto&lt;/h5&gt;
 
 &lt;ul&gt;
-&lt;li&gt;(32+5+16)   = &lt;strong&gt;53 Issues&lt;/strong&gt;,   (7+2+69) = &lt;strong&gt;78 Pull Requests&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(32+5+16+22)   = &lt;strong&gt;75 Issues&lt;/strong&gt;,   (7+2+69+6) = &lt;strong&gt;84 Pull Requests&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h5 id=&#34;ruby-rails:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Ruby + Rails:&lt;/h5&gt;
@@ -130,6 +146,47 @@
 &lt;ul&gt;
 &lt;li&gt;(871 + 412) = &lt;strong&gt;1283 Issues&lt;/strong&gt;, (119 + 464) = &lt;strong&gt;583 Pull Requests&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Feel free to draw your own conclusions on presented facts. I&amp;rsquo;m biased and you should be careful just taking my words as the only valid perspective.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll try my short resume:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Because of the functional nature of Elixir the resulting code makes &lt;strong&gt;bugs easier to find and fix&lt;/strong&gt;, while at the same time the Erlang VM makes &lt;strong&gt;fast and highly robust unit tests possible&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The language designer (Jose Valim) is also shaping the web framework, that results in &lt;strong&gt;high cohesion and interdependent influence of Elixir and Phoenix&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Considered alone any of those facts does not make a big difference, but combined they allow to reach &lt;strong&gt;extraordinary developer productivity without sacrificing code quality in long term&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Elixir provides a unique and unprecedented opportunity for any web developer:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;prolific, energetic and humble language designer who left one of the &amp;ldquo;hottest&amp;rdquo; developer communities to build the language for future web applications&lt;/li&gt;
+&lt;li&gt;battle-tested and highly optimized for robust distributed soft-realtime systems runtime (BEAM - Erlang VM)&lt;/li&gt;
+&lt;li&gt;huge focus on developer happiness&lt;/li&gt;
+&lt;li&gt;makes the right trade-offs between easy and simple, so you can always build more complex systems by combining simpler blocks&lt;/li&gt;
+&lt;li&gt;fanatic and enthusiastic developer community, welcoming beginners and making sure you get that experience of success by small baby steps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many developers are afraid when they hear the word &amp;ldquo;functional programming&amp;rdquo;&amp;hellip; You shouldn&amp;rsquo;t be.&lt;/p&gt;
+
+&lt;p&gt;Just go to &lt;a href=&#34;http://elixir-lang.org/&#34;&gt;http://elixir-lang.org/&lt;/a&gt; and try it out.&lt;/p&gt;
+
+&lt;p&gt;It takes only 5 minutes to run your first Elixir code.&lt;/p&gt;
+
+&lt;p&gt;Watch videos, work with tutorials.&lt;/p&gt;
+
+&lt;p&gt;Ask questions on Slack.&lt;/p&gt;
+
+&lt;p&gt;Become active contributer.&lt;/p&gt;
+
+&lt;p&gt;Solve your next problem with Elixir and be amazed, how it shapes your thinking.&lt;/p&gt;
+
+&lt;p&gt;Be prepared for the multi-core, parallel, concurrent, real-time future of software development! Don&amp;rsquo;t miss out, it will be here faster than you think!&lt;/p&gt;
+
+&lt;p&gt;All the best,
+Roman&lt;/p&gt;
 </description>
     </item>
     
@@ -190,36 +247,6 @@ There is a lot of ways to write software and I have chosen to write web applicat
 &lt;p&gt;Not appropriate for the future we are about to face.&lt;/p&gt;
 
 &lt;p&gt;Ambitious, demanding apps require modern tooling and new approaches. The world is realtime.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Resources For Beginners</title>
-      <link>http://ruby2elixir.github.io/resources-for-beginners.html</link>
-      <pubDate>Tue, 24 Nov 2015 23:35:51 +0100</pubDate>
-      
-      <guid>http://ruby2elixir.github.io/resources-for-beginners.html</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/gabriele.lana/the-magic-of-elixir&#34;&gt;http://www.slideshare.net/gabriele.lana/the-magic-of-elixir&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;compared-to-rails-ruby:71d7c0ddf2c32144069d9e99578400e2&#34;&gt;Compared to Rails / Ruby&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dockyard.com/blog/2015/11/18/phoenix-is-not-rails&#34;&gt;https://dockyard.com/blog/2015/11/18/phoenix-is-not-rails&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;aggregators:71d7c0ddf2c32144069d9e99578400e2&#34;&gt;Aggregators:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://elixirpipe.com/&#34;&gt;http://elixirpipe.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;weekly-newsletters:71d7c0ddf2c32144069d9e99578400e2&#34;&gt;Weekly Newsletters:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://elixirdigest.net/&#34;&gt;http://elixirdigest.net/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
