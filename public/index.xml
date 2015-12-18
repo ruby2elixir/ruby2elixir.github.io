@@ -6,8 +6,175 @@
     <description>Recent content on Ruby 2 Elixir Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Dec 2015 18:36:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 18 Dec 2015 18:36:00 +0100</lastBuildDate>
     <atom:link href="http://ruby2elixir.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Response for the Negative Feedback to Post Yesterday: open letter to Piotr Solnica</title>
+      <link>http://ruby2elixir.github.io/posts/2015/12-18-response-for-the-negative-feedback-to-post-yesterday-open-letter-to-piotr-solnica.html</link>
+      <pubDate>Fri, 18 Dec 2015 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2015/12-18-response-for-the-negative-feedback-to-post-yesterday-open-letter-to-piotr-solnica.html</guid>
+      <description>
+
+&lt;p&gt;My blogpost from yesterday &lt;a href=&#34;http://ruby2elixir.github.io/posts/2015/12-17-elixir-vs-ruby---code-quality.html&#34;&gt;Elixir vs Ruby - Code Quality&lt;/a&gt; seems to have upset quite some people due to its unscientific way of comparing 2 programming language code bases. Most of the criticism is right, number of open issues and outstanding pull request alone do not make a convincing argument&amp;hellip; But it got me some valuable ideas, how to convey the real facts, that I personally find fascinating and intriguing&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;The real metric I wanted to underline is the speed of issue resolving. And the factors that play into it, like ease of bug reproduction, the speed of test suites and conceptual code flexibility.&lt;/p&gt;
+
+&lt;p&gt;I understood this while writing a response to Piotr Solnic (&lt;a href=&#34;http://solnic.eu/&#34;&gt;http://solnic.eu/&lt;/a&gt;), that is copied mostly verbatim from reddit here.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;quote&gt;
+originally posted on reddit/r/ruby
+  &lt;a href=&#34;https://www.reddit.com/r/ruby/comments/3x7m4h/ruby_vs_elixir_code_quality_on_github/&#34;&gt;https://www.reddit.com/r/ruby/comments/3x7m4h/ruby_vs_elixir_code_quality_on_github/&lt;/a&gt;
+&lt;/quote&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, the title is misleading, it should be more like: &lt;strong&gt;the speed of issue resolving in Ruby vs Elixir core languages&lt;/strong&gt;. By proxy this metric says something about the quality of code, but it is not directly &amp;ldquo;quality of code&amp;rdquo;. It&amp;rsquo;s hard to give precise metrics for &amp;ldquo;quality&amp;rdquo;&amp;hellip; You start to understand quality when you interact with the object in question.&lt;/p&gt;
+
+&lt;p&gt;First commit to Elixir was in &lt;sup&gt;2011&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt; (&lt;a href=&#34;https://github.com/elixir-lang/elixir/commits/master?page=289&#34;&gt;https://github.com/elixir-lang/elixir/commits/master?page=289&lt;/a&gt;), so it is widely considered a &amp;ldquo;young&amp;rdquo; language.&lt;/p&gt;
+
+&lt;p&gt;Elixir while being seemingly a &amp;ldquo;young&amp;rdquo; language, is getting all the benefits of 30 years old Erlang VM and the not many but very solid libraries in the Erlang ecosystem. That is a much more solid foundation than Ruby VM can ever get.&lt;/p&gt;
+
+&lt;p&gt;Most of Elixir is implemented in Elixir, making contribution quite easy. Due to its functional nature you as developer are encouraged to structure your code in side-effect free functions transforming immutable datastructures. While being unfamiliar to most OOP programmers, this leads to more explicit and robust code.&lt;/p&gt;
+
+&lt;p&gt;The test suite for the &lt;strong&gt;whole elixir language&lt;/strong&gt; passes in &lt;strong&gt;3 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; minutes&lt;/strong&gt; on travis-ci
+  - &lt;a href=&#34;https://travis-ci.org/elixir-lang/elixir/builds/97507754&#34;&gt;https://travis-ci.org/elixir-lang/elixir/builds/97507754&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;core takes only 42.3 seconds&lt;/strong&gt; (time you need to run tests locally, without fresh installation):
+  - &lt;a href=&#34;https://travis-ci.org/elixir-lang/elixir/builds/97507754#L383&#34;&gt;https://travis-ci.org/elixir-lang/elixir/builds/97507754#L383&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The test suite for &lt;strong&gt;phoenix&lt;/strong&gt; passes in &lt;strong&gt;1 min 38&lt;/strong&gt; sec on travis:
+  &lt;a href=&#34;https://travis-ci.org/phoenixframework/phoenix/builds/97573360&#34;&gt;https://travis-ci.org/phoenixframework/phoenix/builds/97573360&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The actual suite for the &lt;strong&gt;phoenix core&lt;/strong&gt; takes only &lt;strong&gt;around 20 sec&lt;/strong&gt;:
+  &lt;a href=&#34;https://travis-ci.org/phoenixframework/phoenix/builds/97573360#L381&#34;&gt;https://travis-ci.org/phoenixframework/phoenix/builds/97573360#L381&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It seems like nobody ever bothered to &lt;strong&gt;compare open source programming languages by the speed of issue resolving&lt;/strong&gt;&amp;hellip; I have a strong conviction that &lt;strong&gt;this little metric is a strong indicator for the future success&lt;/strong&gt; of that particular language. And surely it is not reflected in the numbers presented in the article yesterday because it would require much more effort to statistically evaluate a meaningful value for each resolved issue on Github. So yeah, that article is probably mostly meaningless for any serious statistical evaluation. But it emphasises something that most developers &lt;strong&gt;neglect to consider&lt;/strong&gt; when picking a new language to learn:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;number of currenly known and unresolved bugs/issues&lt;/strong&gt; in a language&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;how fast&lt;/strong&gt; are those issues resolved&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To take your argument further, one would believe that a young programming language has &lt;strong&gt;by default much less open issues due to its lesser popularity&lt;/strong&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;What about Rust: &lt;a href=&#34;https://github.com/rust-lang/rust&#34;&gt;https://github.com/rust-lang/rust&lt;/a&gt; ?&lt;/p&gt;
+
+&lt;p&gt;It currently has &lt;strong&gt;2286 open issues and 94 outstanding pull requests&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;First commit is from &lt;sup&gt;2010&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt; (&lt;a href=&#34;https://github.com/rust-lang/rust/commits/master?page=1395&#34;&gt;https://github.com/rust-lang/rust/commits/master?page=1395&lt;/a&gt;), only 6 months older than Elixir.&lt;/p&gt;
+
+&lt;p&gt;Is Rust more popular? If we consider the number of stars, it is &lt;strong&gt;3x more popular than Elixir&lt;/strong&gt;. But the number of open issues is ca. &lt;strong&gt;70x (2286 / 32) higher than for Elixir. What&amp;rsquo;s going on here?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you check the last build for Rust&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/rust-lang/rust/builds/97619789&#34;&gt;https://travis-ci.org/rust-lang/rust/builds/97619789&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;it took &lt;strong&gt;51 min 30 sec.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just imagine the &lt;strong&gt;developer ergonomics&lt;/strong&gt;&amp;hellip; You make some changes&amp;hellip; You push to Github&amp;hellip; After nearly &lt;strong&gt;1h waiting comes the response: failed build&lt;/strong&gt;. Every attempt to fix the build will cost you ca. 1h of your life&amp;hellip; How &lt;strong&gt;many productive hours&lt;/strong&gt; do you think you will have in that kind of environment?&lt;/p&gt;
+
+&lt;p&gt;Now contast this with the Elixir test suite. It take much less time to &lt;strong&gt;verify your changes locally&lt;/strong&gt; and it is much &lt;strong&gt;more fun to keep the build green on travis&lt;/strong&gt;, because the &lt;strong&gt;cost per iteration is intentionally kept very low&lt;/strong&gt;. This makes &lt;strong&gt;contribution by community much more likely&lt;/strong&gt;*. And the core team has much &lt;strong&gt;more time to close outstanding issues and merge pull requests&lt;/strong&gt;. You as developer can be &lt;strong&gt;in &amp;ldquo;flow&amp;rdquo; state more often&lt;/strong&gt; because the &lt;strong&gt;feedback loop is so quick&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;personal-appeal:d51fd71bc356afea6bfa07cced01a01e&#34;&gt;Personal appeal&lt;/h3&gt;
+
+&lt;p&gt;Piotr, I have read you blog posts quite often and you come across as quite controversial and forward-thinking person.&lt;/p&gt;
+
+&lt;p&gt;If we take that quite recent post of yours:
+  &lt;a href=&#34;http://solnic.eu/2015/03/04/8-things-i-learned-during-8-years-of-ruby-and-rails.html&#34;&gt;http://solnic.eu/2015/03/04/8-things-i-learned-during-8-years-of-ruby-and-rails.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;TDD: is of paramount importance, right? Elixir makes it even easier than Ruby&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;World outside of Rails:  maybe also outside Ruby?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have tested ALL the Ruby web microframeworks out there&amp;hellip;. They don&amp;rsquo;t help that much, but require much more time investement -&amp;gt; &lt;a href=&#34;https://github.com/luislavena/bench-micro/commits/master?page=2&#34;&gt;https://github.com/luislavena/bench-micro/commits/master?page=2&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Immutability: now we are talking! &lt;strong&gt;Immutability in Ruby&lt;/strong&gt; is well&amp;hellip; Awkward! Inefficient. Against the language philosophy. So not fun!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;No rules, just guidelines: Right! You should be free to structure your application in a way that is meaningful to you. Sadly most companies are embracing the &amp;ldquo;Rails Way&amp;rdquo; of doing things&amp;hellip; You&amp;rsquo;ll fight always an uphill battle to change it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Convenience has a big price: Right, if you&amp;rsquo;re talking about Rails! With Elixir / Phoenix you can keep convenience without making sacrifices in speed and developer productivity, even longterm.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mutation testing: This is not needed in Elixir, because all the data is immutable! But you can use QuickCheck for property based testing, see &lt;a href=&#34;http://www.erlang-factory.com/sfbay2015/thomas-arts&#34;&gt;http://www.erlang-factory.com/sfbay2015/thomas-arts&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Ideas behind ORM are a fallacy: RIGHT!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;I want simple data processing. I want immutable data. When I need to build a UI it should efficiently write changes back to the database when a client sends a request to do so. And that is not an ORM.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Take a look at Ecto - &lt;a href=&#34;https://github.com/elixir-lang/ecto&#34;&gt;https://github.com/elixir-lang/ecto&lt;/a&gt; + some links here: &lt;a href=&#34;https://github.com/mindreframer/getoffrails/blob/master/ecto.md&#34;&gt;https://github.com/mindreframer/getoffrails/blob/master/ecto.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You get back simple data-structures. Without magic. Validation happen in changesets.&lt;/p&gt;
+
+&lt;p&gt;It that is too much for your taste, try that one:
+    &lt;a href=&#34;https://github.com/robconery/moebius&#34;&gt;https://github.com/robconery/moebius&lt;/a&gt; (only for PostgreSQL). Inspired by Sequel by Jeremy Evans. Since you&amp;rsquo;re writing a book about Roda, you&amp;rsquo;ll know him ;)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;the-point-i-m-trying-to-make-is:d51fd71bc356afea6bfa07cced01a01e&#34;&gt;The point I&amp;rsquo;m trying to make is:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Do you think you could fix Ruby to accomodate your wishlist outlined above? How long would it take? Is it possible at all?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;THIS IS THE SAME QUESTION THAT JOSE VALIM HAD FACED. Then he tried to &lt;strong&gt;bring concepts from Erlang language to Ruby and failed&lt;/strong&gt;, unsurprisingly&amp;hellip;
+So he chose to &lt;strong&gt;bring the good parts of Ruby to the Erlang VM&lt;/strong&gt;. That gave birth to Elixir. Despite being considered a &amp;ldquo;young&amp;rdquo; language, Elixir is already right now a &lt;strong&gt;rock-solid foundation to build any ambitious web application&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You know, if you would spend even one third of the efforts and time you&amp;rsquo;re spending right now to fix Ruby to try your ideas in Elixir, you would see a much greater ROI. Promised. You would complain less, you would sleep better and you&amp;rsquo;ll feel more productive.&lt;/p&gt;
+
+&lt;p&gt;I think it is nice to increase the quality of your life by switching languages, don&amp;rsquo;t you think?&lt;/p&gt;
+
+&lt;p&gt;Anywhoo, no hard feelings&amp;hellip; I was in your position a couple years ago, defending Ruby. And you have invested over 8 years of your life into that community, so its hard to see new opportunities outside of it&amp;hellip; I can totally relate to that.&lt;/p&gt;
+
+&lt;p&gt;Please invest 5 minutes of your time and try following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;  # try to install Elixir on your system:
+  #   http://elixir-lang.org/install.html (2-3 minutes)
+  # checkout Phoenix
+  $ git clone https://github.com/phoenixframework/phoenix.git
+  $ cd phoenix
+  $ mix deps.get
+  $ mix test
+
+  # see the tests passing...
+  # open the folder in a text editor and try to break anything...
+  # run tests and see if they catch that error you introduce and how quickly that happens...
+
+  # Now, this is a high level webframework with a similar initial productivity curve like Rails, so you get from idea to something running quite fast... But it does not slow down later, and you can fix any issue with the framework itself quite fast, because of the rapid feedback cycle...
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sorry for so much text to read. I think it is important to realize that at a certain point &lt;strong&gt;investing more time does not yield better results&lt;/strong&gt;&amp;hellip; It&amp;rsquo;s a better strategy to switch to an alternative, that provides &lt;strong&gt;greater return for any invested time unit&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;When I have started Ruby / Rails, nobody in my local community knew it and used it, so &lt;strong&gt;I was that Ruby fanboy back then, before it was cool&lt;/strong&gt;. I loved it, but now the tide has turned&amp;hellip; I have faced &lt;strong&gt;quite a few teams fighting the &amp;ldquo;Rails Way&amp;rdquo;&lt;/strong&gt;, plagued by &lt;strong&gt;slow tests suites&lt;/strong&gt;, contemplating &lt;strong&gt;microservices architecture&lt;/strong&gt;&amp;hellip; If your language does not provide the neccessary primitives to build distributed systems, &lt;strong&gt;you&amp;rsquo;ll end up reimplementing half of Erlang OTP, poorly, riddled with bugs&lt;/strong&gt;&amp;hellip; And you won&amp;rsquo;t have a good time maintaining that system&amp;hellip; Been there, done that. ;)&lt;/p&gt;
+
+&lt;p&gt;So Piotr, I really hope you consider investing your creativity and energy at least partially into Elixir, you might come to like it.&lt;/p&gt;
+
+&lt;p&gt;All the best, Roman&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;P.S:&lt;/p&gt;
+
+&lt;p&gt;After writing that response I cared to google some videos by Piotr Solnica, and this is what I&amp;rsquo;ve found - published on &lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;:&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/KiIukkDvn8o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;It looks like Piotr is already feeling the need for a better language than Ruby&amp;hellip; Give Elixir a try ;)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Elixir vs Ruby - Code quality</title>
