@@ -718,6 +718,63 @@ I don&#39;t simply like Elixir because it&#39;s a good-enough substitute for Lis
     </item>
     
     <item>
+      <title>Chris McCord on Meteorclub</title>
+      <link>http://ruby2elixir.github.io/posts/2015/12-25-chris-mccord-on-meteorclub.html</link>
+      <pubDate>Fri, 25 Dec 2015 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2015/12-25-chris-mccord-on-meteorclub.html</guid>
+      <description>
+
+&lt;p&gt;Recently I&amp;rsquo;ve listened to Chris McCord explaining Phoenix + Elixir on Meteorclub and he confirmed my theory of surprising code base stability for Phoenix.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-are-phoenix-elixir-and-why-should-i-care-meteor-club-podcast-https-simplecast-fm-s-2f11905f:03baf0baf002209b5b8e1c3bdc4fcfc5&#34;&gt;What are Phoenix &amp;amp; Elixir and why should I care? - Meteor Club Podcast - &lt;a href=&#34;https://simplecast.fm/s/2f11905f&#34;&gt;https://simplecast.fm/s/2f11905f&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;from 25:00&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+The first 2 weeks you&#39;re gonna be like ... &#34;I hate this! This is stupid!&#34; When I got into Elixir I couldn&#39;t do a recursive loop. I was going through the &#34;Programming Elixir&#34; book and I was like... &#34;I can&#39;t program! I have a programing degree and I can&#39;t .... &#34; So it takes a while but then, once it clicks.. Oh my... This is the best thing ever.
+&lt;/p&gt;
+&lt;p&gt;
+And now trying to go back to Ruby or object oriented languages ... It just does not feel right. But it takes a little bit. I think the community has done a great job. Saying that we know there is this frustration gap to be filled so... Like we&#39;re very helpful to newcomers and noob style questions. The more the merrier.
+&lt;/p&gt;
+...
+&lt;p&gt;
+We have quite a small core team, there is 5 of us. And Jose Valim is also on the core team. That has been an enormous boost. He probably has half of commits in Phoenix . But still, quite a small core team. We&#39;re actually shocked...
+&lt;/p&gt;
+&lt;p&gt;
+The few issues that we do have.... So we expected with 1.0 that we&#39;ll have a lot more issues to takle. People are using the framework, companies are using it... Not to like, pat us on the back, but it&#39;s been surprisingly stable. Surprisingly few problems have come up.
+&lt;/p&gt;
+&lt;p&gt;So for me personally it&#39;s like... You buy into &#34;kool-aid&#34;.... You do, there is no reason not to.   It&#39;s unavoidable. The interesting thing for me is like functional programming
+&lt;/p&gt;
+
+&lt;p&gt;
+Every step building Phoenix is like... The hype has lived up to the reality. (27:00) Every new feature we write like we wrote the Phoenix HTML layer... Jose and I like walking through the code... &#34;Where is all the code? &#34;
+&lt;/p&gt;
+
+&lt;p&gt;
+It was shockingly small amount of code and we have a lot fewer issues than we expected.
+I think there are 5 open issues or 6 open pull issues on Phoenix right now.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+And people are using it!
+&lt;/p&gt;
+&lt;p&gt;
+So far it&#39;s been a good ride!
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So&amp;hellip; This is really one of the most compelling reasons for me to use Elixir: if you got your abstractions right, the code that you write is suprisingly stable and maintainable. It&amp;rsquo;s hard to explain with words, you have really to experience this by trying it youself.&lt;/p&gt;
+
+&lt;p&gt;Maybe this will give you just enough nudge to read the sourcecode for Phoenix and play with it.&lt;/p&gt;
+
+&lt;p&gt;Have a nice day!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Response to Negative Feedback for Post Yesterday: Open Letter to Piotr Solnica</title>
       <link>http://ruby2elixir.github.io/posts/2015/12-18-response-to-negative-feedback-for-post-yesterday-open-letter-to-piotr-solnica.html</link>
       <pubDate>Fri, 18 Dec 2015 18:36:00 +0100</pubDate>
