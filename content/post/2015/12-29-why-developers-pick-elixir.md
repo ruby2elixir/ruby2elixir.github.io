@@ -398,6 +398,31 @@ Jerel Unruh is a Python developer learning Elixir. He is excited about realtime 
 <div id="jan-dudulski"></div>
 #### Codetunes - We all are going to meet in the Elixir world (2015/06) by Jan Dudulski - http://codetunes.com/2015/we-all-are-going-to-meet-in-the-elixir-world/
 
+
+...
+<blockquote>
+  <p>
+  I attended ElixirConf.eu in April. About 95% of attendees came from the Ruby world. I spoke with many of them and each were speaking the same way - they’re looking for something better. They’re tired of Rails' monolithic design, struggling with thread safety and heavy processes.
+  </p>
+
+  <p>
+  And Elixir seems to be a perfect solution for us, tired Rubists. Beautiful syntax, functional paradigm, successful Erlang VM, incredible performance, dozens of very smart people behind it - this is just the tip of the iceberg and the reason why a lot of devs are so excited already.
+  </p>
+
+  <p>
+    During the conference I heard a story from guys who were able to stop worrying about cache completely - Elixir was so fast! About a painful - at first sight - migration because of missing tools, but also about the ease of building support for them or replacing them with a better toolset. I saw real enjoyment about the possibilities and pleasure of hacking around - e.g. playing with lego robots. I enjoyed every talk and, for me, it was the most inspiring conference I’ve ever attended.
+  </p>
+
+  <p>
+    You will love the fail fast strategy. You will love pattern matching. You will love pipe operator. You will love Ecto and Phoenix. You will love compilator and no more runtime errors. You will love Erlang Processes and how easy it is to just run something in the background.
+  </p>
+  <p>
+    And you will never want to go back.
+  </p>
+
+
+</blockquote>
+
 <hr>
 
 <div id="lau-taarnskov"></div>
