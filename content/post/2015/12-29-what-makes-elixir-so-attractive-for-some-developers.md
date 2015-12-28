@@ -37,7 +37,7 @@ Cheers and please be awesome!
   <li><a href="#john-orford">John Orford - 10 Reasons To Use Elixir In Finance (2015/11)</a></li>
   <li><a href="#david-cristofaro">David Cristofaro - Drinking the Elixir (2015/11)</a></li>
   <li><a href="#jerel-unruh">Jerel Unruh - Why I'm excited about Elixir and Phoenix (2015/11)</a></li>
-  <li><a href="#rob-conery">Rob Conery -  Hello Elixir - Wow (2015/09) </a></li>
+  <li><a href="#rob-conery">Rob Conery - Hello Elixir. Wow. (2015⁄09)</a></li>
   <li><a href="#chris-nelson">Chris Nelson -  4 Reasons We’re Having Fun Programming Elixir (2015/09) </a></li>
   <li><a href="#luc-fueston">Luc Fueston - The (Real) Reason I Like Elixir  (2015⁄09)</a></li>
   <li><a href="#luke-imhoff">Luke Imhoff - Why Elixir? (2015⁄07)</a></li>
@@ -287,9 +287,12 @@ Jerel Unruh is a Python developer learning Elixir. He is excited about realtime 
 
 <hr>
 
-<div id="rob-conery"></div>
 
+
+<span id="rob-conery"></span>
 #### Rob Conery - Hello Elixir. Wow. (2015/09) - http://rob.conery.io/2015/09/03/hello-elixir-wow/
+
+
 
 
 <blockquote>
