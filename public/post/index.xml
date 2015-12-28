@@ -97,33 +97,36 @@ Cheers and please be awesome!
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;div&gt;
+&lt;div&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&#34;#amber&#34;&gt;AmberBit - When to choose Elixir over Ruby for 2016 projects? (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#akita&#34;&gt;Fabio Akita - The Obligatory “Why Elixir?” Personal Take (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#clark-kampfe&#34;&gt;Clark Kampfe - Elixir is not Ruby (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#john-orford&#34;&gt;John Orford - 10 Reasons To Use Elixir In Finance (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#david-cristofaro&#34;&gt;David Cristofaro - Drinking the Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#jerel-unruh&#34;&gt;Jerel Unruh - Why I&amp;rsquo;m excited about Elixir and Phoenix (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#chris-nelson&#34;&gt;Chris Nelson -  4 Reasons We’re Having Fun Programming Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;) &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#luc-fueston&#34;&gt;Luc Fueston - The (Real) Reason I Like Elixir  (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#luke-imhoff&#34;&gt;Luke Imhoff - Why Elixir? (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#jan-dudulski&#34;&gt;Jan Dudulski - We all are going to meet in the Elixir world (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#aaron-lebo&#34;&gt;Aaron Lebo - The UNIX Philosophy and Elixir as an Alternative to Go (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#lau-taarnskov&#34;&gt;Lau Taarnskov - Elixir - The next big language for the web (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;04&lt;/sub&gt;) &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#josh-smith&#34;&gt;Josh Smith - Functional parallel programming in Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#ken-mazaika&#34;&gt;Ken Mazaika - Why I’m betting on Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#paul-schoenfelder&#34;&gt;Paul Schoenfelder - What Is Elixir, and Why Do I Care? (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#sasa-juric&#34;&gt;Saša Jurić -  Why Elixir  (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#alexei-sholik&#34;&gt;Alexei Sholik - Introducing Elixir (&lt;sup&gt;2013&lt;/sup&gt;&amp;frasl;&lt;sub&gt;08&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#devin-torres&#34;&gt;Devin Torres - Elixir: It’s Not About Syntax (&lt;sup&gt;2013&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#amber&#34;&gt;AmberBit - When to choose Elixir over Ruby for 2016 projects? (2015/12)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#akita&#34;&gt;Fabio Akita - The Obligatory “Why Elixir?” Personal Take (2015/12)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#clark-kampfe&#34;&gt;Clark Kampfe - Elixir is not Ruby (2015/11)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#john-orford&#34;&gt;John Orford - 10 Reasons To Use Elixir In Finance (2015/11)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#david-cristofaro&#34;&gt;David Cristofaro - Drinking the Elixir (2015/11)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#jerel-unruh&#34;&gt;Jerel Unruh - Why I&#39;m excited about Elixir and Phoenix (2015/11)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#rob-conery&#34;&gt;Rob Conery -  Hello Elixir - Wow (2015/09) &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#chris-nelson&#34;&gt;Chris Nelson -  4 Reasons We’re Having Fun Programming Elixir (2015/09) &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#luc-fueston&#34;&gt;Luc Fueston - The (Real) Reason I Like Elixir  (2015⁄09)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#luke-imhoff&#34;&gt;Luke Imhoff - Why Elixir? (2015⁄07)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#jan-dudulski&#34;&gt;Jan Dudulski - We all are going to meet in the Elixir world (2015⁄06)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#aaron-lebo&#34;&gt;Aaron Lebo - The UNIX Philosophy and Elixir as an Alternative to Go (2015⁄06)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#lau-taarnskov&#34;&gt;Lau Taarnskov - Elixir - The next big language for the web (2015⁄04) &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#josh-smith&#34;&gt;Josh Smith - Functional parallel programming in Elixir (2015⁄03)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#ken-mazaika&#34;&gt;Ken Mazaika - Why I’m betting on Elixir (2015⁄01)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#paul-schoenfelder&#34;&gt;Paul Schoenfelder - What Is Elixir, and Why Do I Care? (2014⁄03)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#sasa-juric&#34;&gt;Saša Jurić -  Why Elixir  (2014⁄01)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#alexei-sholik&#34;&gt;Alexei Sholik - Introducing Elixir (2013⁄08)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#devin-torres&#34;&gt;Devin Torres - Elixir: It’s Not About Syntax (2013/06)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;hr&gt;&lt;/p&gt;
+&lt;hr&gt;
 
-&lt;p&gt;&lt;h4 id=&#34;amber&#34;&gt;Ruby team at AmberBit  - Announcing Elixir Cocktails + When to choose Elixir over Ruby for 2016 projects?&lt;/h4&gt;
-- &lt;a href=&#34;https://www.amberbit.com/blog/2015/7/24/announcing-elixir-cocktails/&#34;&gt;https://www.amberbit.com/blog/2015/7/24/announcing-elixir-cocktails/&lt;/a&gt;
-- &lt;a href=&#34;https://www.amberbit.com/blog/2015/12/22/when-choose-elixir-over-ruby-for-2016-projects&#34;&gt;https://www.amberbit.com/blog/2015/12/22/when-choose-elixir-over-ruby-for-2016-projects&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;amber&#34;&gt;Ruby team at AmberBit  - Announcing Elixir Cocktails + When to choose Elixir over Ruby for 2016 projects?&lt;/h4&gt;
+- https://www.amberbit.com/blog/2015/7/24/announcing-elixir-cocktails/
+- https://www.amberbit.com/blog/2015/12/22/when-choose-elixir-over-ruby-for-2016-projects
+
 
 &lt;blockquote&gt;
     We are mostly happy with Ruby and Rails, but the language, and the framework are facing some serious problems. Some of us do not believe those problems can be resolved, and there is the need for new platform for more reliable, faster and more concurrent applications.
@@ -134,7 +137,7 @@ Cheers and please be awesome!
     Elixir runs on Erlang VM, and solves some serious problem Ruby has now. It does support actor-model concurrency mechanism. There is no Global Interpreter Lock. It comes with it’s own persistence solutions, handles distributed systems way better than Ruby, provides way to run programs on Windows servers and allows bundling compiled programs into releases. It runs fast, way faster than Ruby code. Does not choke on a hundred concurrent websocket connections. At some point we were missing all of those features when working with Ruby. We can solve those problems now, with Elixir.
 &lt;/blockquote&gt;
 
-&lt;hr /&gt;
+---
 
 &lt;blockquote&gt;
     The web changed a lot since the year 2006.
@@ -145,7 +148,11 @@ Cheers and please be awesome!
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;When to pick Elixir?&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+**When to pick Elixir?**
 
 &lt;blockquote&gt;
     &lt;h5&gt;1. High-traffic systems&lt;/h5&gt;
@@ -179,11 +186,11 @@ Cheers and please be awesome!
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;div id=&#34;akita&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;fabio-akita-the-obligatory-why-elixir-personal-take-2015-12-http-www-akitaonrails-com-2015-12-01-the-obligatory-why-elixir-personal-take:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Fabio Akita - The Obligatory &amp;ldquo;Why Elixir?&amp;rdquo; Personal Take (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;) - &lt;a href=&#34;http://www.akitaonrails.com/2015/12/01/the-obligatory-why-elixir-personal-take&#34;&gt;http://www.akitaonrails.com/2015/12/01/the-obligatory-why-elixir-personal-take&lt;/a&gt;&lt;/h4&gt;
+&lt;div id=&#34;akita&#34;&gt;&lt;/div&gt;
+#### Fabio Akita - The Obligatory &#34;Why Elixir?&#34; Personal Take (2015/12) - http://www.akitaonrails.com/2015/12/01/the-obligatory-why-elixir-personal-take
 
-&lt;p&gt;It is a long article with many nuanced details, here are only the Elixir-relevant parts&amp;hellip;&lt;/p&gt;
+It is a long article with many nuanced details, here are only the Elixir-relevant parts...
 
 &lt;blockquote&gt;
 
@@ -217,11 +224,12 @@ Cheers and please be awesome!
       Now we can have the comfort of a real modern language with hints of Ruby and Clojure, without the complexities of strong typing but with the security of its built-in Fault Tolerance constructions in order to deliver highly reliable, highly scalable, modern Web applications.
 &lt;/blockquote&gt;
 
+
+
 &lt;hr&gt;
 
-&lt;p&gt;&lt;div id=&#34;clark-kampfe&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;clark-kampfe-elixir-is-not-ruby-2015-11-https-zeroclarkthirty-com-2015-11-01-elixir-is-not-ruby-html:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Clark Kampfe - Elixir is not Ruby (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;https://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html&#34;&gt;https://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html&lt;/a&gt;&lt;/h4&gt;
+&lt;div id=&#34;clark-kampfe&#34;&gt;&lt;/div&gt;
+#### Clark Kampfe - Elixir is not Ruby (2015/11) - https://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html
 
 &lt;blockquote&gt;
   In Ruby, one moves through a monolithic call stack, manipulating objects.
@@ -231,27 +239,26 @@ Cheers and please be awesome!
   The defining features of a process are its memory independence and the asynchronicity of its execution.
 &lt;/blockquote&gt;
 
-&lt;p&gt;&amp;hellip;
+...
 &lt;blockquote&gt;
-  To program Elixir is to program in a functional style.&lt;/p&gt;
+  To program Elixir is to program in a functional style.
 
-&lt;ul&gt;
-&lt;li&gt;the function as the primary abstraction&lt;/li&gt;
-&lt;li&gt;immutability of data&lt;/li&gt;
-&lt;li&gt;referential transparency&lt;/li&gt;
-&lt;/ul&gt;
+  - the function as the primary abstraction
+  - immutability of data
+  - referential transparency
 
-&lt;p&gt;&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;hellip;
-&lt;blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;The idiom in Ruby is overwhelmingly to mutate state.
-  The amount of Ruby code I have seen that is concurrent at the application level is vanishingly small, and given the prominence of the above patterns and others, it isn&amp;rsquo;t difficult to see why.&lt;/p&gt;
-
-&lt;p&gt;Ruby and Elixir encourage behaviors as different as prank calls and ballet.
 &lt;/blockquote&gt;
-&amp;hellip;&lt;/p&gt;
+
+...
+&lt;blockquote&gt;
+
+  The idiom in Ruby is overwhelmingly to mutate state.
+  The amount of Ruby code I have seen that is concurrent at the application level is vanishingly small, and given the prominence of the above patterns and others, it isn&#39;t difficult to see why.
+
+
+  Ruby and Elixir encourage behaviors as different as prank calls and ballet.
+&lt;/blockquote&gt;
+...
 
 &lt;blockquote&gt;
     Both languages place value on what is known in the Ruby community as &#34;programmer happiness&#34;.
@@ -263,16 +270,16 @@ Cheers and please be awesome!
     Ruby is hugely popular among solo developers, consultancies, startups and beginners. That is, programmers who are generally concerned more with time-to-market and short-term ROI rather than maintenance.
 &lt;/blockquote&gt;
 
-&lt;p&gt;&amp;hellip;
+...
 &lt;blockquote&gt;
-    Elixir is poised to walk off with Ruby&amp;rsquo;s bacon, as it fuses these two mentalities: systems that run for years should be as enjoyable to build as a NetHack clone.
-&lt;/blockquote&gt;&lt;/p&gt;
+    Elixir is poised to walk off with Ruby&#39;s bacon, as it fuses these two mentalities: systems that run for years should be as enjoyable to build as a NetHack clone.
+&lt;/blockquote&gt;
+
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;div id=&#34;john-orford&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;john-orford-10-reasons-to-use-elixir-in-finance-2015-11-http-blog-johnorford-com-2015-11-01-x-reasons-to-use-elixir-in-finance:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;John Orford - 10 Reasons To Use Elixir In Finance (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://blog.johnorford.com/2015/11/01/x-reasons-to-use-elixir-in-finance/&#34;&gt;http://blog.johnorford.com/2015/11/01/x-reasons-to-use-elixir-in-finance/&lt;/a&gt;&lt;/h4&gt;
+&lt;div id=&#34;john-orford&#34;&gt;&lt;/div&gt;
+#### John Orford - 10 Reasons To Use Elixir In Finance (2015/11) - http://blog.johnorford.com/2015/11/01/x-reasons-to-use-elixir-in-finance/
 
 &lt;blockquote&gt;
     &lt;h5&gt;1. Syntax&lt;/h5&gt;
@@ -301,11 +308,12 @@ Cheers and please be awesome!
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;div id=&#34;jerel-unruh&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;jerel-unruh-why-i-m-excited-about-elixir-and-phoenix-2015-11-http-jerel-co-blog-2015-11-why-im-excited-about-elixir-and-phoenix:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Jerel Unruh - Why I&amp;rsquo;m excited about Elixir and Phoenix (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://jerel.co/blog/2015/11/why-im-excited-about-elixir-and-phoenix&#34;&gt;http://jerel.co/blog/2015/11/why-im-excited-about-elixir-and-phoenix&lt;/a&gt;&lt;/h4&gt;
+&lt;div id=&#34;jerel-unruh&#34;&gt;&lt;/div&gt;
+#### Jerel Unruh - Why I&#39;m excited about Elixir and Phoenix (2015/11) - http://jerel.co/blog/2015/11/why-im-excited-about-elixir-and-phoenix
 
-&lt;p&gt;Jerel Unruh is a Python developer learning Elixir. He is excited about realtime possibilities in Phoenix and the functional approach to structure your applications with Plugs and data transformations of your &lt;strong&gt;conn&lt;/strong&gt;-datastructure.&lt;/p&gt;
+Jerel Unruh is a Python developer learning Elixir. He is excited about realtime possibilities in Phoenix and the functional approach to structure your applications with Plugs and data transformations of your &lt;strong&gt;conn&lt;/strong&gt;-datastructure.
+
 
 &lt;blockquote&gt;
   &lt;p&gt;Phoenix is functional. Every backend framework I&#39;d used before was object oriented and I assumed functional programming, the GNU project, and Gentoo had a lot in common. It&#39;s turning out to be quite user friendly and really nice...
@@ -317,9 +325,8 @@ Cheers and please be awesome!
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;div id=&#34;david-cristofaro&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;david-cristofaro-drinking-the-elixir-2015-11-http-dtcristo-com-drinking-the-elixir:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;David Cristofaro - DRINKING THE ELIXIR (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://dtcristo.com/drinking-the-elixir&#34;&gt;http://dtcristo.com/drinking-the-elixir&lt;/a&gt;&lt;/h4&gt;
+&lt;div id=&#34;david-cristofaro&#34;&gt;&lt;/div&gt;
+#### David Cristofaro - DRINKING THE ELIXIR (2015/11) - http://dtcristo.com/drinking-the-elixir
 
 &lt;blockquote&gt;
   &lt;h5&gt;Elixir:&lt;/h5&gt;
@@ -344,6 +351,37 @@ Cheers and please be awesome!
     Phoenix is designed with real-time applications in mind, taking full advantage of Elixir’s concurrency model.
     With the help of Phoenix, Elixir is set to be the go-to language for the web and poised to kickstart a real-time web revolution.
     &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;div id=&#34;rob-conery&#34;&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;rob-conery-hello-elixir-wow-2015-09-http-rob-conery-io-2015-09-03-hello-elixir-wow:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Rob Conery - Hello Elixir. Wow. (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;) - &lt;a href=&#34;http://rob.conery.io/2015/09/03/hello-elixir-wow/&#34;&gt;http://rob.conery.io/2015/09/03/hello-elixir-wow/&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+
+
+....
+
+&lt;h5&gt;Why Is Elixir Exciting?&lt;/h5&gt;
+&lt;p&gt;
+Elixir is exciting to me because it’s fast, fast, my god it’s fast and has many of the nice facilities that Ruby does – with the power of Erlang behind it.
+&lt;/p&gt;
+&lt;p&gt;
+
+I like this.
+&lt;/p&gt;
+
+...
+
+  &lt;h5&gt;Why I Put Wow In The Title&lt;/h5&gt;
+&lt;p&gt;
+Elixir is intimidating to me. I suck as a programmer and really, I’m kind of a hack. But in about 3 hours I was able to take what I read in a book, connect to a database without a framework and execute something in a rather elegant way.
+&lt;/p&gt;
+&lt;p&gt;
+Wow. This made me quite happy today. We’ll see about tomorrow.
+&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr&gt;
