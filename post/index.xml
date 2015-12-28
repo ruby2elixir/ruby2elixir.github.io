@@ -10,18 +10,48 @@
     <atom:link href="http://ruby2elixir.github.io/post.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Response for the Negative Feedback to Post Yesterday: open letter to Piotr Solnica</title>
-      <link>http://ruby2elixir.github.io/posts/2015/12-18-response-for-the-negative-feedback-to-post-yesterday-open-letter-to-piotr-solnica.html</link>
+      <title>Response to Negative Feedback for Post Yesterday: Open Letter to Piotr Solnica</title>
+      <link>http://ruby2elixir.github.io/posts/2015/12-18-response-to-negative-feedback-for-post-yesterday-open-letter-to-piotr-solnica.html</link>
       <pubDate>Fri, 18 Dec 2015 18:36:00 +0100</pubDate>
       
-      <guid>http://ruby2elixir.github.io/posts/2015/12-18-response-for-the-negative-feedback-to-post-yesterday-open-letter-to-piotr-solnica.html</guid>
+      <guid>http://ruby2elixir.github.io/posts/2015/12-18-response-to-negative-feedback-for-post-yesterday-open-letter-to-piotr-solnica.html</guid>
       <description>
+
+&lt;p&gt;EDIT:
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://ruby2elixir.github.io/media/posts/2015/tweet_1_josevalim.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+
+&lt;figure &gt;
+    &lt;img src=&#34;http://ruby2elixir.github.io/media/posts/2015/tweet_2_josevalim.png&#34; /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Apologies to anybody offended by the following post and especially to Piotr Solnic. I feel his energy and creativity would have a more productive foundation if he chose to express his code in Elixir, but it was certainly not my intention to intimidate him. If there is public interest to take this post down, I will.&lt;/p&gt;
+
+&lt;p&gt;Sorry for confusion!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Original post:&lt;/p&gt;
 
 &lt;p&gt;My blogpost from yesterday &lt;a href=&#34;http://ruby2elixir.github.io/posts/2015/12-17-elixir-vs-ruby---code-quality.html&#34;&gt;Elixir vs Ruby - Code Quality&lt;/a&gt; seems to have upset quite some people due to its unscientific way of comparing 2 programming language code bases. Most of the criticism is right, number of open issues and outstanding pull request alone do not make a convincing argument&amp;hellip; But it got me some valuable ideas, how to convey the real facts, that I personally find fascinating and intriguing&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;The real metric I wanted to underline is the speed of issue resolving. And the factors that play into it, like ease of bug reproduction, the speed of test suites and conceptual code flexibility.&lt;/p&gt;
 
-&lt;p&gt;I understood this while writing a response to Piotr Solnic (&lt;a href=&#34;http://solnic.eu/&#34;&gt;http://solnic.eu/&lt;/a&gt;), that is copied mostly verbatim from reddit here.&lt;/p&gt;
+&lt;p&gt;I understood this while writing a response to Piotr Solnic (&lt;a href=&#34;http://solnic.eu/&#34;&gt;http://solnic.eu/&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;While speed of issue resolving as metric is not analysed here further, I&amp;rsquo;d like to include my response to the critique of yesterday&amp;rsquo;s blog post.&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -95,7 +125,7 @@ originally posted on reddit/r/ruby
 &lt;p&gt;I have tested ALL the Ruby web microframeworks out there&amp;hellip;. They don&amp;rsquo;t help that much, but require much more time investement -&amp;gt; &lt;a href=&#34;https://github.com/luislavena/bench-micro/commits/master?page=2&#34;&gt;https://github.com/luislavena/bench-micro/commits/master?page=2&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Immutability: now we are talking! &lt;strong&gt;Immutability in Ruby&lt;/strong&gt; is well&amp;hellip; Awkward! Inefficient. Against the language philosophy. So not fun!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Immutability: now we are talking! &lt;strong&gt;Immutability in Ruby&lt;/strong&gt; is well&amp;hellip; Awkward. Inefficient. Against the language philosophy. Not fun at all.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;No rules, just guidelines: Right! You should be free to structure your application in a way that is meaningful to you. Sadly most companies are embracing the &amp;ldquo;Rails Way&amp;rdquo; of doing things&amp;hellip; You&amp;rsquo;ll fight always an uphill battle to change it.&lt;/p&gt;&lt;/li&gt;
 
@@ -166,11 +196,16 @@ So he chose to &lt;strong&gt;bring the good parts of Ruby to the Erlang VM&lt;/s
 
 &lt;p&gt;After writing that response I cared to google some videos by Piotr Solnica, and this is what I&amp;rsquo;ve found - published on &lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;:&lt;/p&gt;
 
-
+&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/KiIukkDvn8o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/rMxurF4oqsc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;It looks like Piotr is already feeling the need for a better language than Ruby&amp;hellip; Give Elixir a try ;)&lt;/p&gt;
 </description>
