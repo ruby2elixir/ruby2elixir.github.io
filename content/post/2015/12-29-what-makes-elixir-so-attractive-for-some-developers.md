@@ -1,9 +1,11 @@
 +++
 date = "2015-12-29T18:36:00+01:00"
 draft = false
-title = "Why do developers pick Elixir?"
+title = "What makes Elixir so attractive for some developers?"
 author = "mindreframer"
 +++
+
+
 
 It seems like my recent blog posts reached quite the opposite of my intentions: instead of convincing people to give Elixir a try most visitors left angry comments about zealotry and stupidness and childishness displayed in my arguments.
 
