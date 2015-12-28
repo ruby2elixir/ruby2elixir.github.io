@@ -37,6 +37,7 @@ Cheers and please be awesome!
   <li><a href="#john-orford">John Orford - 10 Reasons To Use Elixir In Finance (2015/11)</a></li>
   <li><a href="#david-cristofaro">David Cristofaro - Drinking the Elixir (2015/11)</a></li>
   <li><a href="#jerel-unruh">Jerel Unruh - Why I'm excited about Elixir and Phoenix (2015/11)</a></li>
+  <li><a href="#rob-conery">Rob Conery -  Hello Elixir - Wow (2015/09) </a></li>
   <li><a href="#chris-nelson">Chris Nelson -  4 Reasons We’re Having Fun Programming Elixir (2015/09) </a></li>
   <li><a href="#luc-fueston">Luc Fueston - The (Real) Reason I Like Elixir  (2015⁄09)</a></li>
   <li><a href="#luke-imhoff">Luke Imhoff - Why Elixir? (2015⁄07)</a></li>
@@ -282,6 +283,38 @@ Jerel Unruh is a Python developer learning Elixir. He is excited about realtime 
     Phoenix is designed with real-time applications in mind, taking full advantage of Elixir’s concurrency model.
     With the help of Phoenix, Elixir is set to be the go-to language for the web and poised to kickstart a real-time web revolution.
     </p>
+</blockquote>
+
+<hr>
+
+<div id="rob-conery"></div>
+
+#### Rob Conery - Hello Elixir. Wow. (2015/09) - http://rob.conery.io/2015/09/03/hello-elixir-wow/
+
+
+<blockquote>
+
+
+....
+
+<h5>Why Is Elixir Exciting?</h5>
+<p>
+Elixir is exciting to me because it’s fast, fast, my god it’s fast and has many of the nice facilities that Ruby does – with the power of Erlang behind it.
+</p>
+<p>
+
+I like this.
+</p>
+
+...
+
+  <h5>Why I Put Wow In The Title</h5>
+<p>
+Elixir is intimidating to me. I suck as a programmer and really, I’m kind of a hack. But in about 3 hours I was able to take what I read in a book, connect to a database without a framework and execute something in a rather elegant way.
+</p>
+<p>
+Wow. This made me quite happy today. We’ll see about tomorrow.
+</p>
 </blockquote>
 
 
