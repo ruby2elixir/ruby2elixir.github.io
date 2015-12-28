@@ -12,7 +12,6 @@ It seems like my recent blog posts reached quite the opposite of my intentions: 
 
 {{< post_image src="2015/are-you-serious-wtf-meme-baby-face-600x400.jpg" height="100%" width="200">}}
 {{< post_image src="2015/the_fuck_like_twelve.jpg" height="100%" width="200">}}
-{{< post_image src="2015/wtf-is-this-shit.jpg" height="100%" width="200">}}
 
 
 <p>
