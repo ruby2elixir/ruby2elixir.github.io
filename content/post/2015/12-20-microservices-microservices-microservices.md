@@ -58,6 +58,7 @@ Leaving Ruby / Rails
   http://hawkins.io/2011/11/moving_on_from_rails/
   http://hawkins.io/2011/12/moving_on_from_rails_part2/
   http://hawkins.io/2015/03/on-ruby/
+  http://www.bigdatalittlegeek.com/blog/2014/7/10/ruby-vs-elixir-an-unfair-fight-and-elixir-wins
 
 
 Elixir:

@@ -1,17 +1,30 @@
 +++
 date = "2015-12-18T18:36:00+01:00"
 draft = false
-title = "Response for the Negative Feedback to Post Yesterday: open letter to Piotr Solnica"
+title = "Response to Negative Feedback for Post Yesterday: Open Letter to Piotr Solnica"
 author = "mindreframer"
 +++
 
+EDIT:
+{{< post_image src="2015/tweet_1_josevalim.png" >}}
+{{< post_image src="2015/tweet_2_josevalim.png" >}}
+
+Apologies to anybody offended by the following post and especially to Piotr Solnic. I feel his energy and creativity would have a more productive foundation if he chose to express his code in Elixir, but it was certainly not my intention to intimidate him. If there is public interest to take this post down, I will.
+
+Sorry for confusion!
+
+
+<hr>
+Original post:
 
 My blogpost from yesterday [Elixir vs Ruby - Code Quality]({{< relref "post/2015/12-17-elixir-vs-ruby-code-quality.md" >}}) seems to have upset quite some people due to its unscientific way of comparing 2 programming language code bases. Most of the criticism is right, number of open issues and outstanding pull request alone do not make a convincing argument... But it got me some valuable ideas, how to convey the real facts, that I personally find fascinating and intriguing...
 
 
 The real metric I wanted to underline is the speed of issue resolving. And the factors that play into it, like ease of bug reproduction, the speed of test suites and conceptual code flexibility.
 
-I understood this while writing a response to Piotr Solnic (http://solnic.eu/), that is copied mostly verbatim from reddit here.
+I understood this while writing a response to Piotr Solnic (http://solnic.eu/).
+
+While speed of issue resolving as metric is not analysed here further, I'd like to include my response to the critique of yesterday's blog post.
 
 <hr>
 <quote>
@@ -91,7 +104,7 @@ If we take that quite recent post of yours:
 
    I have tested ALL the Ruby web microframeworks out there.... They don't help that much, but require much more time investement -> https://github.com/luislavena/bench-micro/commits/master?page=2
 
-- Immutability: now we are talking! **Immutability in Ruby** is well... Awkward! Inefficient. Against the language philosophy. So not fun!
+- Immutability: now we are talking! **Immutability in Ruby** is well... Awkward. Inefficient. Against the language philosophy. Not fun at all.
 
 - No rules, just guidelines: Right! You should be free to structure your application in a way that is meaningful to you. Sadly most companies are embracing the "Rails Way" of doing things... You'll fight always an uphill battle to change it.
 
@@ -171,5 +184,6 @@ After writing that response I cared to google some videos by Piotr Solnica, and 
 
 
 {{< youtube KiIukkDvn8o >}}
+{{< youtube rMxurF4oqsc >}}
 
 It looks like Piotr is already feeling the need for a better language than Ruby... Give Elixir a try ;)

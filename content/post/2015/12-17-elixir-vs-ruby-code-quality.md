@@ -12,7 +12,7 @@ This is just a snapshot in time of current bugs / issues for each language + the
 
 ### Elixir
 
-{{< post_image src="2015/status_elixir_20151217.png" >}}
+{{< post_image full_scale="true" src="2015/status_elixir_20151217.png" >}}
 
 
 Issues: 32, Pull Requests: 7
@@ -20,14 +20,14 @@ Issues: 32, Pull Requests: 7
 <hr>
 
 ### Phoenix
-{{< post_image src="2015/status_phoenix_20151217.png" >}}
+{{< post_image full_scale="true" src="2015/status_phoenix_20151217.png" >}}
 
 Issues: 5, Pull Requests: 2
 
 <hr>
 
 ### Ecto
-{{< post_image src="2015/status_ecto_20151217.png" >}}
+{{< post_image  full_scale="true" src="2015/status_ecto_20151217.png" >}}
 
 Issues: 22, Pull Requests: 6
 
@@ -36,16 +36,16 @@ Issues: 22, Pull Requests: 6
 
 ### Erlang (Bugs are kinda hard to find and report - http://bugs.erlang.org/secure/Dashboard.jspa)
 
-{{< post_image src="2015/status_erlang_20151217.png" >}}
-{{< post_image src="2015/status_erlang_github_20151217.png" >}}
+{{< post_image full_scale="true" src="2015/status_erlang_20151217.png" >}}
+{{< post_image full_scale="true" src="2015/status_erlang_github_20151217.png" >}}
 
 Issues: 16, Pull Requests: 69
 
 <hr>
 
 ### Ruby
-{{< post_image src="2015/status_ruby_20151217.png" >}}
-{{< post_image src="2015/status_ruby_github_20151217.png" >}}
+{{< post_image full_scale="true" src="2015/status_ruby_20151217.png" >}}
+{{< post_image full_scale="true" src="2015/status_ruby_github_20151217.png" >}}
 
 
 Issues (only bugs): 871, Pull Requests: 119
@@ -53,7 +53,7 @@ Issues (only bugs): 871, Pull Requests: 119
 <hr>
 
 ### Rails
-{{< post_image src="2015/status_rails_20151217.png" >}}
+{{< post_image full_scale="true" src="2015/status_rails_20151217.png" >}}
 
 Issues: 412, Pull Requests: 464
 

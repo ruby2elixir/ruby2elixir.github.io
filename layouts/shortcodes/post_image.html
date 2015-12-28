@@ -1,7 +1,21 @@
-{{ $src   := .Get "src" }}
-{{ $title := .Get "title" }}
-<figure >
-    <img src="/media/posts/{{$src}}" />
+{{ $src        := .Get "src" }}
+{{ $title      := .Get "title" }}
+{{ $height     := .Get "height" }}
+{{ $width      := .Get "width" }}
+{{ $fullScale  := .Get "full_scale" }}
+
+<figure class="full_scale">
+    <img class="
+    {{ with $fullScale }}
+      full_scale
+    {{ else }}
+      centered
+    {{ end }}
+    " src="/media/posts/{{$src}}"
+
+    {{ with .Get "height"}} height="{{.}}" {{ end }}
+    {{ with .Get "width"}} width="{{.}}" {{ end }}
+    />
     <figcaption>
         {{ with .Get "title"}}
           <h4>{{.}}</h4>
