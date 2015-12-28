@@ -293,28 +293,26 @@ Jerel Unruh is a Python developer learning Elixir. He is excited about realtime 
 
 
 <blockquote>
+  ....
 
+  <h5>Why Is Elixir Exciting?</h5>
+  <p>
+  Elixir is exciting to me because it’s fast, fast, my god it’s fast and has many of the nice facilities that Ruby does – with the power of Erlang behind it.
+  </p>
+  <p>
 
-....
+  I like this.
+  </p>
 
-<h5>Why Is Elixir Exciting?</h5>
-<p>
-Elixir is exciting to me because it’s fast, fast, my god it’s fast and has many of the nice facilities that Ruby does – with the power of Erlang behind it.
-</p>
-<p>
-
-I like this.
-</p>
-
-...
+  ...
 
   <h5>Why I Put Wow In The Title</h5>
-<p>
-Elixir is intimidating to me. I suck as a programmer and really, I’m kind of a hack. But in about 3 hours I was able to take what I read in a book, connect to a database without a framework and execute something in a rather elegant way.
-</p>
-<p>
-Wow. This made me quite happy today. We’ll see about tomorrow.
-</p>
+  <p>
+  Elixir is intimidating to me. I suck as a programmer and really, I’m kind of a hack. But in about 3 hours I was able to take what I read in a book, connect to a database without a framework and execute something in a rather elegant way.
+  </p>
+  <p>
+  Wow. This made me quite happy today. We’ll see about tomorrow.
+  </p>
 </blockquote>
 
 
