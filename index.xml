@@ -88,8 +88,11 @@ Sigh... Well, gotta learn from my mistakes for the next blog post.
 &lt;/p&gt;
 &lt;p&gt;
 Until then before 2015 is over I decided to compile a list from other developers who might have done a better job describing why they are so excited to work with Elixir and what problems does it solve for them.
+&lt;/p&gt;
+&lt;p&gt;
+The list is chronologically sorted from most recent to oldest articles. I hope this will be useful for anybody thinking what new programming language  to try in 2016.
 
-The list is chronologically sorted from most recent to oldest articles. I hope this will be useful for anybody thinking about trying a new programming language in 2016.
+Cheers and please be awesome!
 &lt;/p&gt;
 
 &lt;hr&gt;
@@ -100,11 +103,11 @@ The list is chronologically sorted from most recent to oldest articles. I hope t
   &lt;li&gt;&lt;a href=&#34;#akita&#34;&gt;Fabio Akita - The Obligatory “Why Elixir?” Personal Take (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#clark-kampfe&#34;&gt;Clark Kampfe - Elixir is not Ruby (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#john-orford&#34;&gt;John Orford - 10 Reasons To Use Elixir In Finance (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#david-cristofaro&#34;&gt;David Cristofaro - DRINKING THE ELIXIR (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#david-cristofaro&#34;&gt;David Cristofaro - Drinking the Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#jerel-unruh&#34;&gt;Jerel Unruh - Why I&amp;rsquo;m excited about Elixir and Phoenix (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#chris-nelson&#34;&gt;Chris Nelson -  4 Reasons We’re Having Fun Programming Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;) &lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#luc-fueston&#34;&gt;Luc Fueston - The (Real) Reason I Like Elixir  (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&#34;#luke-imhoff&#34;&gt;Luke Imhoff - WHY ELIXIR? (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#luke-imhoff&#34;&gt;Luke Imhoff - Why Elixir? (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#jan-dudulski&#34;&gt;Jan Dudulski - We all are going to meet in the Elixir world (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#aaron-lebo&#34;&gt;Aaron Lebo - The UNIX Philosophy and Elixir as an Alternative to Go (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#lau-taarnskov&#34;&gt;Lau Taarnskov - Elixir - The next big language for the web (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;04&lt;/sub&gt;) &lt;/a&gt;&lt;/li&gt;
