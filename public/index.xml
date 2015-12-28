@@ -399,6 +399,14 @@ Cheers and please be awesome!
 
 &lt;p&gt;Luc Fueston likes the Lispy-ness of Elixir and thinks that &amp;ldquo;Macros are the Hammer that Jose Used to Nail It&amp;rdquo;.&lt;/p&gt;
 
+&lt;blockquote&gt;
+  The real reason, the guilty pleasure reason that I like Elixir so much is because of Lisp-style macros. They&#39;re such a healthy way to do &#39;meta&#39;-programming: by making it go away at compile-time.
+
+Like many programmers, I love Lisp but don&#39;t use it day-to-day, and I miss the ways Lisp lets me think about a problem.
+
+I don&#39;t simply like Elixir because it&#39;s a good-enough substitute for Lisp. But I&#39;ve been following and experimenting with macros outside of Lisp for a while, and macros are one of the reasons for Elixir&#39;s success.
+&lt;/blockquote&gt;
+
 &lt;hr&gt;
 
 &lt;p&gt;&lt;div id=&#34;luke-imhoff&#34;&gt;&lt;/div&gt;&lt;/p&gt;
