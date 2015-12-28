@@ -44,7 +44,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Spacing */
 .post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
-margin-bottom: 20px;
+margin-bottom: 15px;
+margin-top: 20px;
 }
 
 /* Base */
@@ -353,10 +354,15 @@ thead th,th {
 	white-space: nowrap;
 }
 
-img {
+img.full_scale {
 	width: 100%;
 	max-width: 100%;
 	border-radius: 3px;
+}
+
+img.centered{
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 /* Made with Cactus Badge */
