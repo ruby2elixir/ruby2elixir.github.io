@@ -10,11 +10,11 @@
     <atom:link href="http://ruby2elixir.github.io/post.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Why do developers pick Elixir?</title>
-      <link>http://ruby2elixir.github.io/posts/2015/12-29-why-do-developers-pick-elixir.html</link>
+      <title>What makes Elixir so attractive for some developers?</title>
+      <link>http://ruby2elixir.github.io/posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html</link>
       <pubDate>Tue, 29 Dec 2015 18:36:00 +0100</pubDate>
       
-      <guid>http://ruby2elixir.github.io/posts/2015/12-29-why-do-developers-pick-elixir.html</guid>
+      <guid>http://ruby2elixir.github.io/posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html</guid>
       <description>
 
 &lt;p&gt;It seems like my recent blog posts reached quite the opposite of my intentions: instead of convincing people to give Elixir a try most visitors left angry comments about zealotry and stupidness and childishness displayed in my arguments.&lt;/p&gt;
@@ -181,7 +181,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;akita&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;fabio-akita-the-obligatory-why-elixir-personal-take-2015-12-http-www-akitaonrails-com-2015-12-01-the-obligatory-why-elixir-personal-take:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Fabio Akita - The Obligatory &amp;ldquo;Why Elixir?&amp;rdquo; Personal Take (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;) - &lt;a href=&#34;http://www.akitaonrails.com/2015/12/01/the-obligatory-why-elixir-personal-take&#34;&gt;http://www.akitaonrails.com/2015/12/01/the-obligatory-why-elixir-personal-take&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;fabio-akita-the-obligatory-why-elixir-personal-take-2015-12-http-www-akitaonrails-com-2015-12-01-the-obligatory-why-elixir-personal-take:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Fabio Akita - The Obligatory &amp;ldquo;Why Elixir?&amp;rdquo; Personal Take (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;) - &lt;a href=&#34;http://www.akitaonrails.com/2015/12/01/the-obligatory-why-elixir-personal-take&#34;&gt;http://www.akitaonrails.com/2015/12/01/the-obligatory-why-elixir-personal-take&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;It is a long article with many nuanced details, here are only the Elixir-relevant parts&amp;hellip;&lt;/p&gt;
 
@@ -221,7 +221,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;clark-kampfe&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;clark-kampfe-elixir-is-not-ruby-2015-11-https-zeroclarkthirty-com-2015-11-01-elixir-is-not-ruby-html:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Clark Kampfe - Elixir is not Ruby (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;https://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html&#34;&gt;https://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;clark-kampfe-elixir-is-not-ruby-2015-11-https-zeroclarkthirty-com-2015-11-01-elixir-is-not-ruby-html:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Clark Kampfe - Elixir is not Ruby (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;https://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html&#34;&gt;https://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
   In Ruby, one moves through a monolithic call stack, manipulating objects.
@@ -272,7 +272,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;john-orford&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;john-orford-10-reasons-to-use-elixir-in-finance-2015-11-http-blog-johnorford-com-2015-11-01-x-reasons-to-use-elixir-in-finance:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;John Orford - 10 Reasons To Use Elixir In Finance (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://blog.johnorford.com/2015/11/01/x-reasons-to-use-elixir-in-finance/&#34;&gt;http://blog.johnorford.com/2015/11/01/x-reasons-to-use-elixir-in-finance/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;john-orford-10-reasons-to-use-elixir-in-finance-2015-11-http-blog-johnorford-com-2015-11-01-x-reasons-to-use-elixir-in-finance:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;John Orford - 10 Reasons To Use Elixir In Finance (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://blog.johnorford.com/2015/11/01/x-reasons-to-use-elixir-in-finance/&#34;&gt;http://blog.johnorford.com/2015/11/01/x-reasons-to-use-elixir-in-finance/&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
     &lt;h5&gt;1. Syntax&lt;/h5&gt;
@@ -303,7 +303,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;jerel-unruh&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;jerel-unruh-why-i-m-excited-about-elixir-and-phoenix-2015-11-http-jerel-co-blog-2015-11-why-im-excited-about-elixir-and-phoenix:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Jerel Unruh - Why I&amp;rsquo;m excited about Elixir and Phoenix (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://jerel.co/blog/2015/11/why-im-excited-about-elixir-and-phoenix&#34;&gt;http://jerel.co/blog/2015/11/why-im-excited-about-elixir-and-phoenix&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;jerel-unruh-why-i-m-excited-about-elixir-and-phoenix-2015-11-http-jerel-co-blog-2015-11-why-im-excited-about-elixir-and-phoenix:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Jerel Unruh - Why I&amp;rsquo;m excited about Elixir and Phoenix (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://jerel.co/blog/2015/11/why-im-excited-about-elixir-and-phoenix&#34;&gt;http://jerel.co/blog/2015/11/why-im-excited-about-elixir-and-phoenix&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;Jerel Unruh is a Python developer learning Elixir. He is excited about realtime possibilities in Phoenix and the functional approach to structure your applications with Plugs and data transformations of your &lt;strong&gt;conn&lt;/strong&gt;-datastructure.&lt;/p&gt;
 
@@ -319,7 +319,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;david-cristofaro&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;david-cristofaro-drinking-the-elixir-2015-11-http-dtcristo-com-drinking-the-elixir:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;David Cristofaro - DRINKING THE ELIXIR (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://dtcristo.com/drinking-the-elixir&#34;&gt;http://dtcristo.com/drinking-the-elixir&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;david-cristofaro-drinking-the-elixir-2015-11-http-dtcristo-com-drinking-the-elixir:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;David Cristofaro - DRINKING THE ELIXIR (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;) - &lt;a href=&#34;http://dtcristo.com/drinking-the-elixir&#34;&gt;http://dtcristo.com/drinking-the-elixir&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;h5&gt;Elixir:&lt;/h5&gt;
@@ -350,7 +350,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;chris-nelson&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;team-at-gaslight-4-reasons-we-re-having-fun-programming-elixir-2015-09-by-chris-nelson-https-teamgaslight-com-blog-4-reasons-were-having-fun-programming-elixir:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Team at Gaslight - 4 Reasons We&amp;rsquo;re Having Fun Programming Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;) by Chris Nelson - &lt;a href=&#34;https://teamgaslight.com/blog/4-reasons-were-having-fun-programming-elixir&#34;&gt;https://teamgaslight.com/blog/4-reasons-were-having-fun-programming-elixir&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;team-at-gaslight-4-reasons-we-re-having-fun-programming-elixir-2015-09-by-chris-nelson-https-teamgaslight-com-blog-4-reasons-were-having-fun-programming-elixir:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Team at Gaslight - 4 Reasons We&amp;rsquo;re Having Fun Programming Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;) by Chris Nelson - &lt;a href=&#34;https://teamgaslight.com/blog/4-reasons-were-having-fun-programming-elixir&#34;&gt;https://teamgaslight.com/blog/4-reasons-were-having-fun-programming-elixir&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;h5&gt;The Community Is Amazing&lt;/h5&gt;
@@ -395,7 +395,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;luc-fueston&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;luc-fueston-the-real-reason-i-like-elixir-2015-09-http-blog-maketogether-com-the-real-reason-i-like-elixir:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Luc Fueston - The (Real) Reason I Like Elixir  (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;) - &lt;a href=&#34;http://blog.maketogether.com/the-real-reason-i-like-elixir/&#34;&gt;http://blog.maketogether.com/the-real-reason-i-like-elixir/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;luc-fueston-the-real-reason-i-like-elixir-2015-09-http-blog-maketogether-com-the-real-reason-i-like-elixir:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Luc Fueston - The (Real) Reason I Like Elixir  (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;09&lt;/sub&gt;) - &lt;a href=&#34;http://blog.maketogether.com/the-real-reason-i-like-elixir/&#34;&gt;http://blog.maketogether.com/the-real-reason-i-like-elixir/&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;Luc Fueston likes the Lispy-ness of Elixir and thinks that &amp;ldquo;Macros are the Hammer that Jose Used to Nail It&amp;rdquo;.&lt;/p&gt;
 
@@ -403,7 +403,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;luke-imhoff&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;luke-imhoff-why-elixir-2015-07-https-kronicdeth-github-io-why-elixir:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Luke Imhoff - WHY ELIXIR? (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt;) - &lt;a href=&#34;https://kronicdeth.github.io/why-elixir/&#34;&gt;https://kronicdeth.github.io/why-elixir/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;luke-imhoff-why-elixir-2015-07-https-kronicdeth-github-io-why-elixir:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Luke Imhoff - WHY ELIXIR? (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt;) - &lt;a href=&#34;https://kronicdeth.github.io/why-elixir/&#34;&gt;https://kronicdeth.github.io/why-elixir/&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;Functional Programming:&lt;/p&gt;
 
@@ -443,7 +443,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;aaron-lebo&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;aaron-lebo-the-unix-philosophy-and-elixir-as-an-alternative-to-go-2015-06-http-lebo-io-2015-06-22-the-unix-philosophy-and-elixir-as-an-alternative-to-go-html:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Aaron Lebo - The UNIX Philosophy and Elixir as an Alternative to Go (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;) - &lt;a href=&#34;http://lebo.io/2015/06/22/the-unix-philosophy-and-elixir-as-an-alternative-to-go.html&#34;&gt;http://lebo.io/2015/06/22/the-unix-philosophy-and-elixir-as-an-alternative-to-go.html&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;aaron-lebo-the-unix-philosophy-and-elixir-as-an-alternative-to-go-2015-06-http-lebo-io-2015-06-22-the-unix-philosophy-and-elixir-as-an-alternative-to-go-html:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Aaron Lebo - The UNIX Philosophy and Elixir as an Alternative to Go (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;) - &lt;a href=&#34;http://lebo.io/2015/06/22/the-unix-philosophy-and-elixir-as-an-alternative-to-go.html&#34;&gt;http://lebo.io/2015/06/22/the-unix-philosophy-and-elixir-as-an-alternative-to-go.html&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
     &lt;h5&gt;Elixir is a very light Ruby-ish layer of syntax that compiles down to run on BEAM, the Erlang VM.&lt;/h5&gt;
@@ -465,7 +465,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;jan-dudulski&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;codetunes-we-all-are-going-to-meet-in-the-elixir-world-2015-06-by-jan-dudulski-http-codetunes-com-2015-we-all-are-going-to-meet-in-the-elixir-world:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Codetunes - We all are going to meet in the Elixir world (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;) by Jan Dudulski - &lt;a href=&#34;http://codetunes.com/2015/we-all-are-going-to-meet-in-the-elixir-world/&#34;&gt;http://codetunes.com/2015/we-all-are-going-to-meet-in-the-elixir-world/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;codetunes-we-all-are-going-to-meet-in-the-elixir-world-2015-06-by-jan-dudulski-http-codetunes-com-2015-we-all-are-going-to-meet-in-the-elixir-world:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Codetunes - We all are going to meet in the Elixir world (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;) by Jan Dudulski - &lt;a href=&#34;http://codetunes.com/2015/we-all-are-going-to-meet-in-the-elixir-world/&#34;&gt;http://codetunes.com/2015/we-all-are-going-to-meet-in-the-elixir-world/&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;&amp;hellip;
 &lt;blockquote&gt;
@@ -494,7 +494,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;lau-taarnskov&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;lau-taarnskov-elixir-the-next-big-language-for-the-web-2015-04-http-www-creativedeletion-com-2015-04-19-elixir-next-language-html:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Lau Taarnskov - Elixir - The next big language for the web (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;04&lt;/sub&gt;) - &lt;a href=&#34;http://www.creativedeletion.com/2015/04/19/elixir_next_language.html&#34;&gt;http://www.creativedeletion.com/2015/04/19/elixir_next_language.html&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;lau-taarnskov-elixir-the-next-big-language-for-the-web-2015-04-http-www-creativedeletion-com-2015-04-19-elixir-next-language-html:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Lau Taarnskov - Elixir - The next big language for the web (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;04&lt;/sub&gt;) - &lt;a href=&#34;http://www.creativedeletion.com/2015/04/19/elixir_next_language.html&#34;&gt;http://www.creativedeletion.com/2015/04/19/elixir_next_language.html&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
 
@@ -534,7 +534,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;josh-smith&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;josh-smith-functional-parallel-programming-in-elixir-2015-03-http-ijoshsmith-com-2015-03-14-functional-parallel-programming-in-elixir:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Josh Smith - Functional parallel programming in Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;) - &lt;a href=&#34;http://ijoshsmith.com/2015/03/14/functional-parallel-programming-in-elixir/&#34;&gt;http://ijoshsmith.com/2015/03/14/functional-parallel-programming-in-elixir/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;josh-smith-functional-parallel-programming-in-elixir-2015-03-http-ijoshsmith-com-2015-03-14-functional-parallel-programming-in-elixir:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Josh Smith - Functional parallel programming in Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;) - &lt;a href=&#34;http://ijoshsmith.com/2015/03/14/functional-parallel-programming-in-elixir/&#34;&gt;http://ijoshsmith.com/2015/03/14/functional-parallel-programming-in-elixir/&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;h5&gt;Why Elixir?&lt;/h5&gt;
@@ -559,7 +559,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;ken-mazaika&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;ken-mazaika-why-i-m-betting-on-elixir-2015-01-https-medium-com-kenmazaika-why-im-betting-on-elixir-7c8f847b58:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Ken Mazaika - Why I’m betting on Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;) - &lt;a href=&#34;https://medium.com/@kenmazaika/why-im-betting-on-elixir-7c8f847b58&#34;&gt;https://medium.com/@kenmazaika/why-im-betting-on-elixir-7c8f847b58&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;ken-mazaika-why-i-m-betting-on-elixir-2015-01-https-medium-com-kenmazaika-why-im-betting-on-elixir-7c8f847b58:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Ken Mazaika - Why I’m betting on Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;) - &lt;a href=&#34;https://medium.com/@kenmazaika/why-im-betting-on-elixir-7c8f847b58&#34;&gt;https://medium.com/@kenmazaika/why-im-betting-on-elixir-7c8f847b58&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
     &lt;h5&gt;Package Management with Mix&lt;/h5&gt;
@@ -585,7 +585,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;paul-schoenfelder&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;paul-schoenfelder-what-is-elixir-and-why-do-i-care-2014-03-http-bitwalker-org-elixir-erlang-programming-tutorials-2014-03-10-what-is-elixir-and-why-do-i-care:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Paul Schoenfelder - What Is Elixir, and Why Do I Care? (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;) - &lt;a href=&#34;http://bitwalker.org/elixir/erlang/programming/tutorials/2014/03/10/what-is-elixir-and-why-do-i-care/&#34;&gt;http://bitwalker.org/elixir/erlang/programming/tutorials/2014/03/10/what-is-elixir-and-why-do-i-care/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;paul-schoenfelder-what-is-elixir-and-why-do-i-care-2014-03-http-bitwalker-org-elixir-erlang-programming-tutorials-2014-03-10-what-is-elixir-and-why-do-i-care:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Paul Schoenfelder - What Is Elixir, and Why Do I Care? (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;) - &lt;a href=&#34;http://bitwalker.org/elixir/erlang/programming/tutorials/2014/03/10/what-is-elixir-and-why-do-i-care/&#34;&gt;http://bitwalker.org/elixir/erlang/programming/tutorials/2014/03/10/what-is-elixir-and-why-do-i-care/&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;Paul Schoenfelder is productive in C#, Ruby, Python, Javascript, Scala, Clojure, C and C++, but he thinks Elixir provides something, that all the other languages do not&amp;hellip;&lt;/p&gt;
 
@@ -620,7 +620,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;sasa-juric&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;saša-jurić-why-elixir-2014-01-http-theerlangelist-com-article-why-elixir:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Saša Jurić - Why Elixir - (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;) - &lt;a href=&#34;http://theerlangelist.com/article/why_elixir&#34;&gt;http://theerlangelist.com/article/why_elixir&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;saša-jurić-why-elixir-2014-01-http-theerlangelist-com-article-why-elixir:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Saša Jurić - Why Elixir - (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;) - &lt;a href=&#34;http://theerlangelist.com/article/why_elixir&#34;&gt;http://theerlangelist.com/article/why_elixir&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
     &lt;strong&gt;Elixir is not Ruby for Erlang.&lt;/strong&gt;
@@ -648,9 +648,9 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;alexei-sholik&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;alexei-sholik-introducing-elixir-2013-08-http-alexeisholik-com-elixir-talk:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Alexei Sholik - Introducing Elixir (&lt;sup&gt;2013&lt;/sup&gt;&amp;frasl;&lt;sub&gt;08&lt;/sub&gt;) - &lt;a href=&#34;http://alexeisholik.com/elixir-talk/&#34;&gt;http://alexeisholik.com/elixir-talk/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;alexei-sholik-introducing-elixir-2013-08-http-alexeisholik-com-elixir-talk:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Alexei Sholik - Introducing Elixir (&lt;sup&gt;2013&lt;/sup&gt;&amp;frasl;&lt;sub&gt;08&lt;/sub&gt;) - &lt;a href=&#34;http://alexeisholik.com/elixir-talk/&#34;&gt;http://alexeisholik.com/elixir-talk/&lt;/a&gt;&lt;/h4&gt;
 
-&lt;h3 id=&#34;why-elixir:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Why Elixir?&lt;/h3&gt;
+&lt;h3 id=&#34;why-elixir:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Why Elixir?&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;No repetitive boilerplate&lt;/li&gt;
@@ -667,7 +667,7 @@ Cheers and please be awesome!
 
 &lt;p&gt;&lt;div id=&#34;devin-torres&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;devin-torres-elixir-it-s-not-about-syntax-2013-06-http-devintorr-es-blog-2013-06-11-elixir-its-not-about-syntax:1359706cd5718d68f22bd3e7738ac85a&#34;&gt;Devin Torres - Elixir: It&amp;rsquo;s Not About Syntax (&lt;sup&gt;2013&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;) - &lt;a href=&#34;http://devintorr.es/blog/2013/06/11/elixir-its-not-about-syntax/&#34;&gt;http://devintorr.es/blog/2013/06/11/elixir-its-not-about-syntax/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;devin-torres-elixir-it-s-not-about-syntax-2013-06-http-devintorr-es-blog-2013-06-11-elixir-its-not-about-syntax:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Devin Torres - Elixir: It&amp;rsquo;s Not About Syntax (&lt;sup&gt;2013&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;) - &lt;a href=&#34;http://devintorr.es/blog/2013/06/11/elixir-its-not-about-syntax/&#34;&gt;http://devintorr.es/blog/2013/06/11/elixir-its-not-about-syntax/&lt;/a&gt;&lt;/h4&gt;
 
 &lt;blockquote&gt;
       &lt;h5&gt;Performance&lt;/h5&gt;
