@@ -95,6 +95,7 @@ Cheers and please be awesome!
   &lt;li&gt;&lt;a href=&#34;#ken-mazaika&#34;&gt;Ken Mazaika - Why I’m betting on Elixir (&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#paul-schoenfelder&#34;&gt;Paul Schoenfelder - What Is Elixir, and Why Do I Care? (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#sasa-juric&#34;&gt;Saša Jurić -  Why Elixir  (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;#renderedtext&#34;&gt;Darko Fabijan -  Learn Elixir to stay young  (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#alexei-sholik&#34;&gt;Alexei Sholik - Introducing Elixir (&lt;sup&gt;2013&lt;/sup&gt;&amp;frasl;&lt;sub&gt;08&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#34;#devin-torres&#34;&gt;Devin Torres - Elixir: It’s Not About Syntax (&lt;sup&gt;2013&lt;/sup&gt;&amp;frasl;&lt;sub&gt;06&lt;/sub&gt;)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -659,6 +660,31 @@ I don&#39;t simply like Elixir because it&#39;s a good-enough substitute for Lis
       &lt;h5&gt;Syntactical changes&lt;/h5&gt;
         support for variable rebinding, optional parentheses, implicit statement endings, nullability, short circuits operators...
 
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;div id=&#34;renderedtext&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;darko-fabijan-learn-elixir-to-stay-young-2014-01-http-renderedtext-com-blog-2014-01-21-learn-elixir-to-stay-young:aa1c6d0861f2f92d8b287802740247ae&#34;&gt;Darko Fabijan - Learn Elixir to stay young - (&lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;) - &lt;a href=&#34;http://renderedtext.com/blog/2014/01/21/learn-elixir-to-stay-young/&#34;&gt;http://renderedtext.com/blog/2014/01/21/learn-elixir-to-stay-young/&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+    &lt;strong&gt;Why Elixir&lt;/strong&gt;
+    &lt;p&gt;
+      Many say that next programming languages that will matter will be LISP and/or Erlang descendants. Just by simple deduction it seems that Clojure and Elixir are the cool kids that you should hang out with.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      It runs on Erlang VM, has a really nice Ruby-like syntax and allows you to write powerful DSLs with macros. The fact that it runs on Erlang VM with its&#39; actor-based architecture means that you can not only transparently run your application across multiple CPU cores without thinking too much, but also run it across multiple machines in almost the same way.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      If you ever touched Ruby you know that syntax can really matter and how it just feels nice under your fingers. Well for Elixir I could say the same. And finally macros, originated in LISP, are also available in Elixir because of it’s homoiconicity. Macros give you the power to extend the language as you feel needed and that means that you can turn Elixir in a language specialised for solving your particular problem.
+    &lt;/p&gt;
+    ...
+    &lt;p&gt;
+      Elixir is awesome. You will discover and learn many new concepts from computer science that are really powerful but neglected in other languages. Ultimately Elixir will replace Node.js and Ruby in many places and now is a chance to be an Elixir guru even before the waves start rising.
+    &lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr&gt;
@@ -1376,6 +1402,21 @@ Roman&lt;/p&gt;
       
       <guid>http://ruby2elixir.github.io/about.html</guid>
       <description>&lt;p&gt;An initiative to help you move your Rails application to Elixir&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://ruby2elixir.github.io/posts/1/01-01-.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/1/01-01-.html</guid>
+      <description>&lt;p&gt;Pipe and anonymous functions
+- &lt;a href=&#34;https://groups.google.com/forum/#!topic/elixir-lang-core/dwbNOh_yNd4&#34;&gt;https://groups.google.com/forum/#!topic/elixir-lang-core/dwbNOh_yNd4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PIPELINING IN ELIXIR/ERLANG
+- &lt;a href=&#34;http://theerlangelist.blogspot.de/2013/02/pipelining-in-elixirerlang.html&#34;&gt;http://theerlangelist.blogspot.de/2013/02/pipelining-in-elixirerlang.html&lt;/a&gt;
+- &lt;a href=&#34;https://github.com/sasa1977/exactor_demos&#34;&gt;https://github.com/sasa1977/exactor_demos&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
