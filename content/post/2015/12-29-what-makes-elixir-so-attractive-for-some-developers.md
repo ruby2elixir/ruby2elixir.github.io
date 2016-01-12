@@ -47,6 +47,7 @@ Cheers and please be awesome!
   <li><a href="#ken-mazaika">Ken Mazaika - Why I’m betting on Elixir (2015⁄01)</a></li>
   <li><a href="#paul-schoenfelder">Paul Schoenfelder - What Is Elixir, and Why Do I Care? (2014⁄03)</a></li>
   <li><a href="#sasa-juric">Saša Jurić -  Why Elixir  (2014⁄01)</a></li>
+  <li><a href="#renderedtext">Darko Fabijan -  Learn Elixir to stay young  (2014⁄01)</a></li>
   <li><a href="#alexei-sholik">Alexei Sholik - Introducing Elixir (2013⁄08)</a></li>
   <li><a href="#devin-torres">Devin Torres - Elixir: It’s Not About Syntax (2013/06)</a></li>
 </ul>
@@ -619,6 +620,32 @@ I don't simply like Elixir because it's a good-enough substitute for Lisp. But I
 
 
 <hr>
+
+<div id="renderedtext"></div>
+#### Darko Fabijan - Learn Elixir to stay young - (2014/01) - http://renderedtext.com/blog/2014/01/21/learn-elixir-to-stay-young/
+
+<blockquote>
+    <strong>Why Elixir</strong>
+    <p>
+      Many say that next programming languages that will matter will be LISP and/or Erlang descendants. Just by simple deduction it seems that Clojure and Elixir are the cool kids that you should hang out with.
+    </p>
+
+    <p>
+      It runs on Erlang VM, has a really nice Ruby-like syntax and allows you to write powerful DSLs with macros. The fact that it runs on Erlang VM with its' actor-based architecture means that you can not only transparently run your application across multiple CPU cores without thinking too much, but also run it across multiple machines in almost the same way.
+    </p>
+
+    <p>
+      If you ever touched Ruby you know that syntax can really matter and how it just feels nice under your fingers. Well for Elixir I could say the same. And finally macros, originated in LISP, are also available in Elixir because of it’s homoiconicity. Macros give you the power to extend the language as you feel needed and that means that you can turn Elixir in a language specialised for solving your particular problem.
+    </p>
+    ...
+    <p>
+      Elixir is awesome. You will discover and learn many new concepts from computer science that are really powerful but neglected in other languages. Ultimately Elixir will replace Node.js and Ruby in many places and now is a chance to be an Elixir guru even before the waves start rising.
+    </p>
+</blockquote>
+
+
+<hr>
+
 
 <div id="alexei-sholik"></div>
 #### Alexei Sholik - Introducing Elixir (2013/08) - http://alexeisholik.com/elixir-talk/
