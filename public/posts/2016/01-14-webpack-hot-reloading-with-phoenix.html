@@ -94,6 +94,7 @@ end
     &quot;--inline&quot;,
     &quot;--colors&quot;,
     &quot;--stdin&quot;, ## so it will stop, when stdin from phoenix is closed
+               ## requires  https://github.com/webpack/webpack-dev-server/pull/352/files --&gt; stdin, so probably &gt;= 1.14.2
 ]
 if IEx.started?, do: webpack_args = List.delete(webpack_args, &quot;--progress&quot;)
 
@@ -192,6 +193,20 @@ end
     &lt;script src='&lt;%= js_bundle(@conn) %&gt;'&gt;&lt;/script&gt;
   &lt;/body&gt;
 &lt;/html&gt;
+</code></pre>
+
+<h2 id="gotchas:4265bc156c36d01e73c56df1cd691262">Gotchas:</h2>
+
+<pre><code class="language-bash">Error: ENOENT: no such file or directory, open '.../node_modules/webpack-dev-server/client/live.bundle.js'
+at Error (native)
+
+</code></pre>
+
+<ul>
+<li><a href="https://github.com/webpack/webpack-dev-server/issues/59">https://github.com/webpack/webpack-dev-server/issues/59</a></li>
+</ul>
+
+<pre><code class="language-bash">cd node_modules/webpack-dev-server &amp;&amp; npm run-script prepublish
 </code></pre>
 
                 </section>

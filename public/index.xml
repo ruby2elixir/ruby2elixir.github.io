@@ -73,6 +73,7 @@ end
     &amp;quot;--inline&amp;quot;,
     &amp;quot;--colors&amp;quot;,
     &amp;quot;--stdin&amp;quot;, ## so it will stop, when stdin from phoenix is closed
+               ## requires  https://github.com/webpack/webpack-dev-server/pull/352/files --&amp;gt; stdin, so probably &amp;gt;= 1.14.2
 ]
 if IEx.started?, do: webpack_args = List.delete(webpack_args, &amp;quot;--progress&amp;quot;)
 
@@ -171,6 +172,20 @@ end
     &amp;lt;script src=&#39;&amp;lt;%= js_bundle(@conn) %&amp;gt;&#39;&amp;gt;&amp;lt;/script&amp;gt;
   &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;gotchas:4265bc156c36d01e73c56df1cd691262&#34;&gt;Gotchas:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Error: ENOENT: no such file or directory, open &#39;.../node_modules/webpack-dev-server/client/live.bundle.js&#39;
+at Error (native)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/webpack/webpack-dev-server/issues/59&#34;&gt;https://github.com/webpack/webpack-dev-server/issues/59&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd node_modules/webpack-dev-server &amp;amp;&amp;amp; npm run-script prepublish
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
