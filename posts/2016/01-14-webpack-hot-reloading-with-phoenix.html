@@ -9,7 +9,7 @@
 		<meta name="author" content="RUBY 2 ELIXIR">
 		<meta name="description" content="Community-driven initiative to switch from Ruby to Elixir">
 		<meta name="generator" content="Hugo 0.15" />
-		<title> &middot; Ruby 2 Elixir Blog</title>
+		<title>Webpack Hot-Reloading with Phoenix &middot; Ruby 2 Elixir Blog</title>
 		<link rel="shortcut icon" href="http://ruby2elixir.github.io/images/favicon.ico">
 		<link rel="stylesheet" href="http://ruby2elixir.github.io/css/style.css">
 		<link rel="stylesheet" href="http://ruby2elixir.github.io/css/highlight.css">
@@ -32,20 +32,176 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1></h1>
-                    <h2 class="headline">January 1, 0001</h2>
+                    <h1>Webpack Hot-Reloading with Phoenix</h1>
+                    <h2 class="headline">January 14, 2016</h2>
                 </header>
                 <section id="post-body">
-                    <p>Pipe and anonymous functions
-- <a href="https://groups.google.com/forum/#!topic/elixir-lang-core/dwbNOh_yNd4">https://groups.google.com/forum/#!topic/elixir-lang-core/dwbNOh_yNd4</a></p>
+                    
 
-<p>PIPELINING IN ELIXIR/ERLANG
-- <a href="http://theerlangelist.blogspot.de/2013/02/pipelining-in-elixirerlang.html">http://theerlangelist.blogspot.de/2013/02/pipelining-in-elixirerlang.html</a>
-- <a href="https://github.com/sasa1977/exactor_demos">https://github.com/sasa1977/exactor_demos</a></p>
+<blockquote>
+  this is just a reminder without proper comments...
+</blockquote>
+
+<h3 id="steps-to-enable-webpack-hot-reloding-in-phoenix:4265bc156c36d01e73c56df1cd691262">Steps to enable Webpack + hot-reloding in Phoenix:</h3>
+
+<ul>
+<li>Router: add routes for webpack controller (proxy)</li>
+</ul>
+
+<pre><code class="language-elixir">if Mix.env == :dev do
+  scope &quot;/static&quot;, Front do
+    pipe_through :api
+    get &quot;/:req&quot;, WebPackController, :hot_update
+  end
+end
+</code></pre>
+
+<ul>
+<li>Webpack Proxy Controller (web/controllers/web_pack_controller.ex)</li>
+</ul>
+
+<pre><code class="language-elixir">defmodule Front.WebPackController do
+  use Phoenix.Controller
+  @webpack_url &quot;http://localhost:3000/static/&quot;
+
+  def hot_update(conn, params) do
+    req = Map.get(params, &quot;req&quot;)
+    res = HTTPoison.get! @webpack_url &lt;&gt; req
+    text conn, res.body
+  end
+end
+</code></pre>
+
+<ul>
+<li>Endpoint: adjust static Plug to include webpack</li>
+</ul>
+
+<pre><code class="language-elixir">    plug Plug.Static,
+      at: &quot;/&quot;, from: :back, gzip: false,
+      only: ~w(css fonts images js webpack favicon.ico robots.txt)
+
+</code></pre>
+
+<ul>
+<li>Config: dev.exs - configure watchers:</li>
+</ul>
+
+<pre><code class="language-elixir">webpack_args = [Path.expand(&quot;assets/node_modules/.bin/webpack-dev-server&quot;),
+    &quot;--port=3000&quot;,
+    &quot;--history-api-fallback&quot;,
+    &quot;--hot&quot;,
+    &quot;--progress&quot;,
+    &quot;--inline&quot;,
+    &quot;--colors&quot;,
+    &quot;--stdin&quot;, ## so it will stop, when stdin from phoenix is closed
+]
+if IEx.started?, do: webpack_args = List.delete(webpack_args, &quot;--progress&quot;)
+
+config :front, Front.Endpoint,
+  http: [port: 4000],
+  debug_errors: true,
+  code_reloader: true,
+  check_origin: false,
+  root: Path.expand(&quot;..&quot;, __DIR__) &lt;&gt; &quot;/assets&quot;, #we need to be in the assets folder...
+  watchers: [
+    &quot;node&quot;: webpack_args,
+  ]
+</code></pre>
+
+<ul>
+<li>Mix: add task for asset digesting (lib/mix/tasks.ex)</li>
+</ul>
+
+<pre><code class="language-elixir">defmodule Mix.Tasks.MyApp.Digest do
+  use Mix.Task
+
+  def run(args) do
+    Mix.Shell.IO.cmd &quot;cd assets &amp;&amp; npm run build&quot;
+    :ok = Mix.Tasks.Phoenix.Digest.run(args)
+  end
+end
+</code></pre>
+
+<pre><code class="language-elixir">in mix.exs
+defp aliases do
+  [
+    ....#
+    &quot;phoenix.digest&quot;: [&quot;my_app.digest&quot;]
+  ]
+end
+
+# add :httpoison to be started
+defp applications(:dev) do
+  [:httpoison] + applications(:prod)
+end
+
+defp applications(_) do
+  [....]
+end
+</code></pre>
+
+<ul>
+<li>Views
+
+<ul>
+<li>layout_view.ex</li>
+</ul></li>
+</ul>
+
+<pre><code class="language-elixir">defmodule Front.LayoutView do
+  use Front.Web, :view
+
+  def styles_bundle(conn) do
+    make_path(conn, &quot;vendor_styles-bundle.js&quot;)
+  end
+
+  def js_bundle(conn) do
+    make_path(conn, &quot;js-bundle.js&quot;)
+  end
+
+  # enables hot-reloadable URLs in development
+  defp make_path(conn, asset) do
+    if Mix.env == :dev do
+      &quot;http://localhost:3000/static/&quot; &lt;&gt; asset
+    else
+      Front.Router.Helpers.static_path(conn, &quot;/webpack/&quot; &lt;&gt; asset)
+    end
+  end
+end
+</code></pre>
+
+<p>templates:
+  - use helpers in layout</p>
+
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+
+    &lt;title&gt;Front - React&lt;/title&gt;
+    &lt;script src=&quot;&lt;%= styles_bundle(@conn) %&gt;&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;div id=&quot;root&quot; class=&quot;container&quot;&gt;
+    &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;script src='&lt;%= js_bundle(@conn) %&gt;'&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 
                 </section>
             </article>
             <footer id="post-meta" class="clearfix">
+                
+                <div>
+                    <p>Author:</p>
+                    <p>Roman Heinrich - Hopeless practitioner in search for the perfect prog language...</p>
+                </div>
                 
 
                 
@@ -56,7 +212,7 @@
                         </div>
                     
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fruby2elixir.github.io%2fposts%2f1%2f01-01-.html -  "><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fruby2elixir.github.io%2fposts%2f2016%2f01-14-webpack-hot-reloading-with-phoenix.html - Webpack%20Hot-Reloading%20with%20Phoenix "><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -96,10 +252,6 @@
     <h3>Read more</h3>
     
     
-        
-        <li>
-            <a href="http://ruby2elixir.github.io/posts/2016/01-14-webpack-hot-reloading-with-phoenix.html">Webpack Hot-Reloading with Phoenix<aside class="dates">Jan 14</aside></a>
-        </li>
         
    
     
@@ -145,6 +297,10 @@
         
    
     
+        
+        <li>
+            <a href="http://ruby2elixir.github.io/posts/1/01-01-.html"><aside class="dates">Jan 1</aside></a>
+        </li>
         
    
 </ul>
