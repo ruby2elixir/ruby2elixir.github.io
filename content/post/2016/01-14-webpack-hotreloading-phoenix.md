@@ -62,6 +62,7 @@ webpack_args = [Path.expand("assets/node_modules/.bin/webpack-dev-server"),
     "--inline",
     "--colors",
     "--stdin", ## so it will stop, when stdin from phoenix is closed
+               ## requires  https://github.com/webpack/webpack-dev-server/pull/352/files --> stdin, so probably >= 1.14.2
 ]
 if IEx.started?, do: webpack_args = List.delete(webpack_args, "--progress")
 
@@ -166,7 +167,16 @@ templates:
 
 
 
+## Gotchas:
 
 
+```bash
+Error: ENOENT: no such file or directory, open '.../node_modules/webpack-dev-server/client/live.bundle.js'
+at Error (native)
 
+```
+- https://github.com/webpack/webpack-dev-server/issues/59
 
+```bash
+cd node_modules/webpack-dev-server && npm run-script prepublish
+```
