@@ -6,6 +6,21 @@ author = "mindreframer"
 +++
 
 
+EDIT - 2016/01/15:
+
+Due to mostly unsupportive feedback the comments for this article are now closed.
+
+Originally I tried to make a statement pro Elixir/Phoenix for developers by comparing the number of open issues / pull requests with respect to Ruby by summing them up.
+
+This went "south" and caused some unreasonable backlash against Elixir community as whole, which was not my intention at all.
+
+To prevent further flaming this is just kept online as reminder for myself to pick my words more carefully next time. I still believe the reasons outlined in the article are valid, but my presentation style and argumentation skills require more polish. Thanks for understanding.
+
+
+**Original Article**
+
+
+
 A non-scientific and quick comparison of code quality between Ruby and Elixir ecosystems.
 
 This is just a snapshot in time of current bugs / issues for each language + the most prominent web framework in that ecosystem. Yeah, in theory they should not be related, but in practice it plays a huge role in driving developer adoption if you get the web framework right, so we consider it too.
