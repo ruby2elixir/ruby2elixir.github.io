@@ -7,6 +7,8 @@
 	{{ if ne $url "about/" }}
 		<a href='{{ .Site.BaseURL }}page/about.html'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 	{{ end }}
+		<a href='{{ .Site.BaseURL }}page/success-stories.html'>Success Stories</a>
+
 
 	{{ if .Site.Params.enableRSS }}
 	<a class="cta" href="{{ .Site.BaseURL }}index.xml">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}Subscribe{{ end }}</a>
