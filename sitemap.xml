@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>http://ruby2elixir.github.io/posts/2016/01-12-working-with-pipes-more-efficiently.html</loc>
+    <lastmod>2016-01-12T18:36:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ruby2elixir.github.io/posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html</loc>
     <lastmod>2015-12-29T18:36:00+01:00</lastmod>
   </url>
@@ -38,12 +43,8 @@
   </url>
   
   <url>
-    <loc>http://ruby2elixir.github.io/about.html</loc>
+    <loc>http://ruby2elixir.github.io/page/about.html</loc>
     <lastmod>2015-11-24T18:35:51+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ruby2elixir.github.io/posts/1/01-01-.html</loc>
   </url>
   
 </urlset>
