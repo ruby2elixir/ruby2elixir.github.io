@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phoenix on Ruby 2 Elixir Blog</title>
+    <link>http://ruby2elixir.github.io/tags/phoenix.html</link>
+    <description>Recent content in Phoenix on Ruby 2 Elixir Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jan 2016 18:36:00 +0100</lastBuildDate>
+    <atom:link href="http://ruby2elixir.github.io/tags/phoenix.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Webpack Hot-Reloading with Phoenix</title>
+      <link>http://ruby2elixir.github.io/posts/2016/01-14-webpack-hot-reloading-with-phoenix.html</link>
+      <pubDate>Thu, 14 Jan 2016 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2016/01-14-webpack-hot-reloading-with-phoenix.html</guid>
+      <description>
+
+&lt;blockquote&gt;
+  this is just a reminder without proper comments...
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;steps-to-enable-webpack-hot-reloding-in-phoenix:4265bc156c36d01e73c56df1cd691262&#34;&gt;Steps to enable Webpack + hot-reloding in Phoenix:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Router: add routes for webpack controller (proxy)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elixir&#34;&gt;if Mix.env == :dev do
+  scope &amp;quot;/static&amp;quot;, Front do
+    pipe_through :api
+    get &amp;quot;/:req&amp;quot;, WebPackController, :hot_update
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Webpack Proxy Controller (web/controllers/web_pack_controller.ex)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elixir&#34;&gt;defmodule Front.WebPackController do
+  use Phoenix.Controller
+  @webpack_url &amp;quot;http://localhost:3000/static/&amp;quot;
+
+  def hot_update(conn, params) do
+    req = Map.get(params, &amp;quot;req&amp;quot;)
+    res = HTTPoison.get! @webpack_url &amp;lt;&amp;gt; req
+    text conn, res.body
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Endpoint: adjust static Plug to include webpack&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elixir&#34;&gt;    plug Plug.Static,
+      at: &amp;quot;/&amp;quot;, from: :back, gzip: false,
+      only: ~w(css fonts images js webpack favicon.ico robots.txt)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Config: dev.exs - configure watchers:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elixir&#34;&gt;webpack_args = [Path.expand(&amp;quot;assets/node_modules/.bin/webpack-dev-server&amp;quot;),
+    &amp;quot;--port=3000&amp;quot;,
+    &amp;quot;--history-api-fallback&amp;quot;,
+    &amp;quot;--hot&amp;quot;,
+    &amp;quot;--progress&amp;quot;,
+    &amp;quot;--inline&amp;quot;,
+    &amp;quot;--colors&amp;quot;,
+    &amp;quot;--stdin&amp;quot;, ## so it will stop, when stdin from phoenix is closed
+               ## requires  https://github.com/webpack/webpack-dev-server/pull/352/files --&amp;gt; stdin, so probably &amp;gt;= 1.14.2
+]
+if IEx.started?, do: webpack_args = List.delete(webpack_args, &amp;quot;--progress&amp;quot;)
+
+config :front, Front.Endpoint,
+  http: [port: 4000],
+  debug_errors: true,
+  code_reloader: true,
+  check_origin: false,
+  root: Path.expand(&amp;quot;..&amp;quot;, __DIR__) &amp;lt;&amp;gt; &amp;quot;/assets&amp;quot;, #we need to be in the assets folder...
+  watchers: [
+    &amp;quot;node&amp;quot;: webpack_args,
+  ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mix: add task for asset digesting (lib/mix/tasks.ex)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elixir&#34;&gt;defmodule Mix.Tasks.MyApp.Digest do
+  use Mix.Task
+
+  def run(args) do
+    Mix.Shell.IO.cmd &amp;quot;cd assets &amp;amp;&amp;amp; npm run build&amp;quot;
+    :ok = Mix.Tasks.Phoenix.Digest.run(args)
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elixir&#34;&gt;in mix.exs
+defp aliases do
+  [
+    ....#
+    &amp;quot;phoenix.digest&amp;quot;: [&amp;quot;my_app.digest&amp;quot;]
+  ]
+end
+
+# add :httpoison to be started
+defp applications(:dev) do
+  [:httpoison] + applications(:prod)
+end
+
+defp applications(_) do
+  [....]
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Views
+
+&lt;ul&gt;
+&lt;li&gt;layout_view.ex&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elixir&#34;&gt;defmodule Front.LayoutView do
+  use Front.Web, :view
+
+  def styles_bundle(conn) do
+    make_path(conn, &amp;quot;vendor_styles-bundle.js&amp;quot;)
+  end
+
+  def js_bundle(conn) do
+    make_path(conn, &amp;quot;js-bundle.js&amp;quot;)
+  end
+
+  # enables hot-reloadable URLs in development
+  defp make_path(conn, asset) do
+    if Mix.env == :dev do
+      &amp;quot;http://localhost:3000/static/&amp;quot; &amp;lt;&amp;gt; asset
+    else
+      Front.Router.Helpers.static_path(conn, &amp;quot;/webpack/&amp;quot; &amp;lt;&amp;gt; asset)
+    end
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;templates:
+  - use helpers in layout&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+    &amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;IE=edge&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;&amp;quot;&amp;gt;
+
+    &amp;lt;title&amp;gt;Front - React&amp;lt;/title&amp;gt;
+    &amp;lt;script src=&amp;quot;&amp;lt;%= styles_bundle(@conn) %&amp;gt;&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;root&amp;quot; class=&amp;quot;container&amp;quot;&amp;gt;
+    &amp;lt;/div&amp;gt; &amp;lt;!-- /container --&amp;gt;
+    &amp;lt;script src=&#39;&amp;lt;%= js_bundle(@conn) %&amp;gt;&#39;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;gotchas:4265bc156c36d01e73c56df1cd691262&#34;&gt;Gotchas:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Error: ENOENT: no such file or directory, open &#39;.../node_modules/webpack-dev-server/client/live.bundle.js&#39;
+at Error (native)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/webpack/webpack-dev-server/issues/59&#34;&gt;https://github.com/webpack/webpack-dev-server/issues/59&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd node_modules/webpack-dev-server &amp;amp;&amp;amp; npm run-script prepublish
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chris McCord on Meteorclub</title>
+      <link>http://ruby2elixir.github.io/posts/2015/12-25-chris-mccord-on-meteorclub.html</link>
+      <pubDate>Fri, 25 Dec 2015 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2015/12-25-chris-mccord-on-meteorclub.html</guid>
+      <description>
+
+&lt;p&gt;Recently I&amp;rsquo;ve listened to Chris McCord explaining Phoenix + Elixir on Meteorclub and he confirmed my theory of surprising code base stability for Phoenix.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-are-phoenix-elixir-and-why-should-i-care-meteor-club-podcast-https-simplecast-fm-s-2f11905f:03baf0baf002209b5b8e1c3bdc4fcfc5&#34;&gt;What are Phoenix &amp;amp; Elixir and why should I care? - Meteor Club Podcast - &lt;a href=&#34;https://simplecast.fm/s/2f11905f&#34;&gt;https://simplecast.fm/s/2f11905f&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;from 25:00&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+The first 2 weeks you&#39;re gonna be like ... &#34;I hate this! This is stupid!&#34; When I got into Elixir I couldn&#39;t do a recursive loop. I was going through the &#34;Programming Elixir&#34; book and I was like... &#34;I can&#39;t program! I have a programing degree and I can&#39;t .... &#34; So it takes a while but then, once it clicks.. Oh my... This is the best thing ever.
+&lt;/p&gt;
+&lt;p&gt;
+And now trying to go back to Ruby or object oriented languages ... It just does not feel right. But it takes a little bit. I think the community has done a great job. Saying that we know there is this frustration gap to be filled so... Like we&#39;re very helpful to newcomers and noob style questions. The more the merrier.
+&lt;/p&gt;
+...
+&lt;p&gt;
+We have quite a small core team, there is 5 of us. And Jose Valim is also on the core team. That has been an enormous boost. He probably has half of commits in Phoenix . But still, quite a small core team. We&#39;re actually shocked...
+&lt;/p&gt;
+&lt;p&gt;
+The few issues that we do have.... So we expected with 1.0 that we&#39;ll have a lot more issues to takle. People are using the framework, companies are using it... Not to like, pat us on the back, but it&#39;s been surprisingly stable. Surprisingly few problems have come up.
+&lt;/p&gt;
+&lt;p&gt;So for me personally it&#39;s like... You buy into &#34;kool-aid&#34;.... You do, there is no reason not to.   It&#39;s unavoidable. The interesting thing for me is like functional programming
+&lt;/p&gt;
+
+&lt;p&gt;
+Every step building Phoenix is like... The hype has lived up to the reality. (27:00) Every new feature we write like we wrote the Phoenix HTML layer... Jose and I like walking through the code... &#34;Where is all the code? &#34;
+&lt;/p&gt;
+
+&lt;p&gt;
+It was shockingly small amount of code and we have a lot fewer issues than we expected.
+I think there are 5 open issues or 6 open pull issues on Phoenix right now.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+And people are using it!
+&lt;/p&gt;
+&lt;p&gt;
+So far it&#39;s been a good ride!
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So&amp;hellip; This is really one of the most compelling reasons for me to use Elixir: if you got your abstractions right, the code that you write is suprisingly stable and maintainable. It&amp;rsquo;s hard to explain with words, you have really to experience this by trying it youself.&lt;/p&gt;
+
+&lt;p&gt;Maybe this will give you just enough nudge to read the sourcecode for Phoenix and play with it.&lt;/p&gt;
+
+&lt;p&gt;Have a nice day!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

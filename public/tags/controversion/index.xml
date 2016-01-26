@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Controversion on Ruby 2 Elixir Blog</title>
+    <link>http://ruby2elixir.github.io/tags/controversion.html</link>
+    <description>Recent content in Controversion on Ruby 2 Elixir Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Dec 2015 18:36:00 +0100</lastBuildDate>
+    <atom:link href="http://ruby2elixir.github.io/tags/controversion.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Elixir vs Ruby - Code quality</title>
+      <link>http://ruby2elixir.github.io/posts/2015/12-17-elixir-vs-ruby---code-quality.html</link>
+      <pubDate>Thu, 17 Dec 2015 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2015/12-17-elixir-vs-ruby---code-quality.html</guid>
+      <description>
+
+&lt;p&gt;EDIT - 2016/01/15:&lt;/p&gt;
+
+&lt;p&gt;Due to mostly unsupportive feedback the comments for this article are now closed.&lt;/p&gt;
+
+&lt;p&gt;Originally I tried to make a statement pro Elixir/Phoenix for developers by comparing the number of open issues / pull requests with respect to Ruby by summing them up.&lt;/p&gt;
+
+&lt;p&gt;This went &amp;ldquo;south&amp;rdquo; and caused some unreasonable backlash against Elixir community as whole, which was not my intention at all.&lt;/p&gt;
+
+&lt;p&gt;To prevent further flaming this is just kept online as reminder for myself to pick my words more carefully next time. I still believe the reasons outlined in the article are valid, but my presentation style and argumentation skills require more polish. Thanks for understanding.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Article&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A non-scientific and quick comparison of code quality between Ruby and Elixir ecosystems.&lt;/p&gt;
+
+&lt;p&gt;This is just a snapshot in time of current bugs / issues for each language + the most prominent web framework in that ecosystem. Yeah, in theory they should not be related, but in practice it plays a huge role in driving developer adoption if you get the web framework right, so we consider it too.&lt;/p&gt;
+
+&lt;h3 id=&#34;elixir:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Elixir&lt;/h3&gt;
+
+
+
+
+
+
+
+&lt;figure class=&#34;full_scale&#34;&gt;
+    &lt;img class=&#34;
+    
+      full_scale
+    
+    &#34; src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_elixir_20151217.png&#34;
+
+    
+    
+    /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Issues: 32, Pull Requests: 7&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;phoenix:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Phoenix&lt;/h3&gt;
+
+
+
+
+
+
+
+&lt;figure class=&#34;full_scale&#34;&gt;
+    &lt;img class=&#34;
+    
+      full_scale
+    
+    &#34; src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_phoenix_20151217.png&#34;
+
+    
+    
+    /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Issues: 5, Pull Requests: 2&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;ecto:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Ecto&lt;/h3&gt;
+
+
+
+
+
+
+
+&lt;figure class=&#34;full_scale&#34;&gt;
+    &lt;img class=&#34;
+    
+      full_scale
+    
+    &#34; src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_ecto_20151217.png&#34;
+
+    
+    
+    /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Issues: 22, Pull Requests: 6&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;erlang-bugs-are-kinda-hard-to-find-and-report-http-bugs-erlang-org-secure-dashboard-jspa:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Erlang (Bugs are kinda hard to find and report - &lt;a href=&#34;http://bugs.erlang.org/secure/Dashboard.jspa&#34;&gt;http://bugs.erlang.org/secure/Dashboard.jspa&lt;/a&gt;)&lt;/h3&gt;
+
+&lt;p&gt;
+
+
+
+
+
+&lt;figure class=&#34;full_scale&#34;&gt;
+    &lt;img class=&#34;
+    
+      full_scale
+    
+    &#34; src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_erlang_20151217.png&#34;
+
+    
+    
+    /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+
+
+
+
+
+&lt;figure class=&#34;full_scale&#34;&gt;
+    &lt;img class=&#34;
+    
+      full_scale
+    
+    &#34; src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_erlang_github_20151217.png&#34;
+
+    
+    
+    /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Issues: 16, Pull Requests: 69&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;ruby:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;
+
+
+
+
+
+&lt;figure class=&#34;full_scale&#34;&gt;
+    &lt;img class=&#34;
+    
+      full_scale
+    
+    &#34; src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_ruby_20151217.png&#34;
+
+    
+    
+    /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+
+
+
+
+
+&lt;figure class=&#34;full_scale&#34;&gt;
+    &lt;img class=&#34;
+    
+      full_scale
+    
+    &#34; src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_ruby_github_20151217.png&#34;
+
+    
+    
+    /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Issues (only bugs): 871, Pull Requests: 119&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;rails:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Rails&lt;/h3&gt;
+
+
+
+
+
+
+
+&lt;figure class=&#34;full_scale&#34;&gt;
+    &lt;img class=&#34;
+    
+      full_scale
+    
+    &#34; src=&#34;http://ruby2elixir.github.io/media/posts/2015/status_rails_20151217.png&#34;
+
+    
+    
+    /&gt;
+    &lt;figcaption&gt;
+        
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Issues: 412, Pull Requests: 464&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&#34;summary:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Summary:&lt;/h2&gt;
+
+&lt;h5 id=&#34;erlang-elixir-phoenix-ecto:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Erlang + Elixir + Phoenix + Ecto&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(32+5+16+22)   = &lt;strong&gt;75 Issues&lt;/strong&gt;,   (7+2+69+6) = &lt;strong&gt;84 Pull Requests&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;ruby-rails:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Ruby + Rails:&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(871 + 412) = &lt;strong&gt;1283 Issues&lt;/strong&gt;, (119 + 464) = &lt;strong&gt;583 Pull Requests&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Feel free to draw your own conclusions on presented facts. I&amp;rsquo;m biased and you should be careful just taking my words as the only valid perspective.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll try my short resume:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Because of the functional nature of Elixir the resulting code makes &lt;strong&gt;bugs easier to find and fix&lt;/strong&gt;, while at the same time the Erlang VM makes &lt;strong&gt;fast and highly robust unit tests possible&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The language designer (Jose Valim) is also shaping the web framework, that results in &lt;strong&gt;high cohesion and interdependent influence of Elixir and Phoenix&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Considered alone any of those facts does not make a big difference, but combined they allow to reach &lt;strong&gt;extraordinary developer productivity without sacrificing code quality in long term&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&#34;elixir-provides-a-unique-and-unprecedented-opportunity-for-any-web-developer:248cf1be2829ed759d637ae6d7112e9b&#34;&gt;Elixir provides a unique and unprecedented opportunity for any web developer:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;prolific, energetic and humble&lt;/strong&gt; language designer who left one of the &amp;ldquo;hottest&amp;rdquo; developer communities to build the language for future web applications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;battle-tested and highly optimized for robust distributed soft-realtime systems&lt;/strong&gt; runtime (BEAM - Erlang VM)&lt;/li&gt;
+&lt;li&gt;huge focus on &lt;strong&gt;developer happiness&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;makes the right trade-offs between easy and simple, so you can always &lt;strong&gt;build more complex systems by combining simpler blocks&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fanatic and enthusiastic developer community&lt;/strong&gt;, welcoming beginners and making sure you get that experience of &lt;strong&gt;success by small baby steps&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many developers are afraid when they hear the word &amp;ldquo;functional programming&amp;rdquo;&amp;hellip; You shouldn&amp;rsquo;t be.&lt;/p&gt;
+
+&lt;p&gt;Just go to &lt;a href=&#34;http://elixir-lang.org/&#34;&gt;http://elixir-lang.org/&lt;/a&gt; and try it out.&lt;/p&gt;
+
+&lt;p&gt;It takes only &lt;strong&gt;5 minutes to run your first Elixir code&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Watch videos, work with tutorials&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ask questions on &lt;strong&gt;Slack&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Become active contributer.&lt;/p&gt;
+
+&lt;p&gt;Join your local &lt;strong&gt;Elixir Meetup&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Solve your next problem with Elixir and be amazed how it &lt;strong&gt;shapes your thinking&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Be prepared for the &lt;strong&gt;multi-core, parallel, concurrent, real-time future of software development&lt;/strong&gt;! Don&amp;rsquo;t miss out, because it is already here!&lt;/p&gt;
+
+&lt;p&gt;All the best,
+Roman&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

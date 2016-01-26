@@ -191,6 +191,21 @@ at Error (native)
     </item>
     
     <item>
+      <title>Working with Pipes More Efficiently</title>
+      <link>http://ruby2elixir.github.io/posts/2016/01-12-working-with-pipes-more-efficiently.html</link>
+      <pubDate>Tue, 12 Jan 2016 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2016/01-12-working-with-pipes-more-efficiently.html</guid>
+      <description>&lt;p&gt;Pipe and anonymous functions
+- &lt;a href=&#34;https://groups.google.com/forum/#!topic/elixir-lang-core/dwbNOh_yNd4&#34;&gt;https://groups.google.com/forum/#!topic/elixir-lang-core/dwbNOh_yNd4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PIPELINING IN ELIXIR/ERLANG
+- &lt;a href=&#34;http://theerlangelist.blogspot.de/2013/02/pipelining-in-elixirerlang.html&#34;&gt;http://theerlangelist.blogspot.de/2013/02/pipelining-in-elixirerlang.html&lt;/a&gt;
+- &lt;a href=&#34;https://github.com/sasa1977/exactor_demos&#34;&gt;https://github.com/sasa1977/exactor_demos&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>What makes Elixir so attractive for some developers?</title>
       <link>http://ruby2elixir.github.io/posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html</link>
       <pubDate>Tue, 29 Dec 2015 18:36:00 +0100</pubDate>
@@ -1590,26 +1605,11 @@ Roman&lt;/p&gt;
     
     <item>
       <title>About</title>
-      <link>http://ruby2elixir.github.io/about.html</link>
+      <link>http://ruby2elixir.github.io/page/about.html</link>
       <pubDate>Tue, 24 Nov 2015 18:35:51 +0100</pubDate>
       
-      <guid>http://ruby2elixir.github.io/about.html</guid>
+      <guid>http://ruby2elixir.github.io/page/about.html</guid>
       <description>&lt;p&gt;An initiative to help you move your Rails application to Elixir&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://ruby2elixir.github.io/posts/1/01-01-.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://ruby2elixir.github.io/posts/1/01-01-.html</guid>
-      <description>&lt;p&gt;Pipe and anonymous functions
-- &lt;a href=&#34;https://groups.google.com/forum/#!topic/elixir-lang-core/dwbNOh_yNd4&#34;&gt;https://groups.google.com/forum/#!topic/elixir-lang-core/dwbNOh_yNd4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;PIPELINING IN ELIXIR/ERLANG
-- &lt;a href=&#34;http://theerlangelist.blogspot.de/2013/02/pipelining-in-elixirerlang.html&#34;&gt;http://theerlangelist.blogspot.de/2013/02/pipelining-in-elixirerlang.html&lt;/a&gt;
-- &lt;a href=&#34;https://github.com/sasa1977/exactor_demos&#34;&gt;https://github.com/sasa1977/exactor_demos&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
