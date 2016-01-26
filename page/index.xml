@@ -19,5 +19,97 @@
 </description>
     </item>
     
+    <item>
+      <title>Success Stories</title>
+      <link>http://ruby2elixir.github.io/page/success-stories.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/page/success-stories.html</guid>
+      <description>
+
+&lt;h3 id=&#34;many-by-many:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Many By Many:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@stueccles/what-i-learned-migrating-a-rails-app-to-elixir-phoenix-f707436749aa#.uvcx77v8n&#34;&gt;What I learned migrating a Rails app to Elixir/Phoenix&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CTO and Co-Founder of &amp;ldquo;Many By Many&amp;rdquo; converted a non-trivial e-Commerce application that runs high-end sock business at Form&amp;amp;Thread from Rails to Elixir.
+  &lt;blockquote&gt;
+  &lt;h3&gt;Summary:&lt;/h3&gt;
+    So i’m sure there will be many more transition patterns that are useful in migrating a Rails app but so far I’ve found the process not only pretty painless but also feels vastly superior. Not to mention just how much faster the Elixir app is; response times under 100ms bring joy to the heart.&lt;/p&gt;
+
+&lt;p&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;pinterest:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Pinterest:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.pinterest.com/blog/introducing-new-open-source-tools-elixir-community&#34;&gt;https://engineering.pinterest.com/blog/introducing-new-open-source-tools-elixir-community&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://venturebeat.stfi.re/2015/12/18/pinterest-elixir/?sf=kjxndp&#34;&gt;http://venturebeat.stfi.re/2015/12/18/pinterest-elixir/?sf=kjxndp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;undead-labs:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Undead Labs:&lt;/h3&gt;
+
+&lt;p&gt;Jamie Winsor is having great success with Elixir in production at Undead Labs.
+    - &lt;a href=&#34;https://www.youtube.com/watch?v=iSTspCGn8C8&#34;&gt;https://www.youtube.com/watch?v=iSTspCGn8C8&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rose-point-navigation-systems:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Rose Point Navigation Systems&lt;/h3&gt;
+
+&lt;p&gt;They’re using Elixir to develop embedded software for navigation devices for marine markets.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://a115.co.uk/publications/companies-using-elixir.html&#34;&gt;http://a115.co.uk/publications/companies-using-elixir.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;taskworld:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Taskworld&lt;/h3&gt;
+
+&lt;p&gt;replacing node.js with Elixir&lt;/p&gt;
+
+&lt;h3 id=&#34;dockyard:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Dockyard&lt;/h3&gt;
+
+&lt;p&gt;web-apps with Phoenix and Ember.js&lt;/p&gt;
+
+&lt;h3 id=&#34;chatblend:10148ca7d624e20a1a7eb732333df16d&#34;&gt;ChatBlend&lt;/h3&gt;
+
+&lt;p&gt;picked Elixir for their back-end API to increase client engagement via SMS messaging&lt;/p&gt;
+
+&lt;h3 id=&#34;prima-it:10148ca7d624e20a1a7eb732333df16d&#34;&gt;prima.it&lt;/h3&gt;
+
+&lt;p&gt;Milan-based start-up prima.it uses Elixir and Phoenix to automate real-time processes in their vehicle insurance business&lt;/p&gt;
+
+&lt;h3 id=&#34;cobenian:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Cobenian&lt;/h3&gt;
+
+&lt;p&gt;Cobenian uses Elixir and Phoenix to build the REST API that powers DemoIt - a secure HTML sharing on-line service.&lt;/p&gt;
+
+&lt;h3 id=&#34;bleacherreport-com:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Bleacherreport.com&lt;/h3&gt;
+
+&lt;p&gt;Bleacherreport.com uses Elixir for fast uncacheable content
+  - &lt;a href=&#34;https://docs.google.com/presentation/d/1V5EPLAu7PpuKGIRSsrpReuvEinM7DV-NqlNjvAt4faA/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000&amp;amp;slide=id.g5b73f5e28_2_99&#34;&gt;https://docs.google.com/presentation/d/1V5EPLAu7PpuKGIRSsrpReuvEinM7DV-NqlNjvAt4faA/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000&amp;amp;slide=id.g5b73f5e28_2_99&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;localytics:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Localytics:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://eng.localytics.com/flirting-with-elixir/&#34;&gt;http://eng.localytics.com/flirting-with-elixir/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;appcues:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Appcues:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://engineering.appcues.com/2015/12/21/elixir-wercker.html&#34;&gt;https://engineering.appcues.com/2015/12/21/elixir-wercker.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;whisper:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Whisper&lt;/h3&gt;
+
+&lt;p&gt;Anonymous social network Whisper uses Phoenix, a framework based in Elixir.&lt;/p&gt;
+
+&lt;h3 id=&#34;fanduel:10148ca7d624e20a1a7eb732333df16d&#34;&gt;FanDuel&lt;/h3&gt;
+
+&lt;p&gt;Fantasy sports league app FanDuel,&lt;/p&gt;
+
+&lt;h3 id=&#34;brightcove:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Brightcove&lt;/h3&gt;
+
+&lt;p&gt;video hosting service Brightcove,&lt;/p&gt;
+
+&lt;h3 id=&#34;opendoor:10148ca7d624e20a1a7eb732333df16d&#34;&gt;OpenDoor&lt;/h3&gt;
+
+&lt;p&gt;home-selling app OpenDoor are using Elixir in production, too, Valim told me in an email.&lt;/p&gt;
+
+&lt;h3 id=&#34;sameroom-io:10148ca7d624e20a1a7eb732333df16d&#34;&gt;Sameroom.io&lt;/h3&gt;
+
+&lt;p&gt;Andrei Soroker, founder and chief executive of Sameroom.io, a tool that connects people across many messaging apps, waxes poetic about the importance of Elixir.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
