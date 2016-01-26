@@ -8,9 +8,7 @@ tags = ["phoenix", "podcast", "code-quality"]
 +++
 
 
-Recently I've listened to Chris McCord explaining Phoenix + Elixir on Meteorclub and he confirmed my theory of surprising code base stability for Phoenix.
-
-
+Recently I've listened to Chris McCord explaining Phoenix + Elixir on Meteorclub where he talks about the surprising code base stability for Phoenix.
 
 
 ### What are Phoenix & Elixir and why should I care? - Meteor Club Podcast - https://simplecast.fm/s/2f11905f
