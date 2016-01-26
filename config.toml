@@ -2,6 +2,7 @@ baseurl      = "http://ruby2elixir.github.io/"
 languageCode = "en-us"
 title        = "Ruby 2 Elixir Blog"
 theme        = "cactus"
+paginate     = 5
 canonifyurls = true
 uglyurls     = true
 
