@@ -5,7 +5,7 @@
 	{{ end }}
 
 	{{ if ne $url "about/" }}
-		<a href='{{ .Site.BaseURL }}/page/about.html'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
+		<a href='{{ .Site.BaseURL }}page/about.html'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.enableRSS }}
