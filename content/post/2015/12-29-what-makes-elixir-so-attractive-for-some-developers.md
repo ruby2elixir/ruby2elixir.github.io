@@ -6,25 +6,12 @@ author = "mindreframer"
 tags = ["motivation"]
 +++
 
-
-
-It seems like my recent blog posts reached quite the opposite of my intentions: instead of convincing people to give Elixir a try most visitors left angry comments about zealotry and stupidness and childishness displayed in my arguments.
-
-
-{{< post_image src="2015/are-you-serious-wtf-meme-baby-face-600x400.jpg" height="100%" width="200">}}
-{{< post_image src="2015/the_fuck_like_twelve.jpg" height="100%" width="200">}}
-
-
 <p>
-Sigh... Well, gotta learn from my mistakes for the next blog post.
-</p>
-<p>
-Until then before 2015 is over I decided to compile a list from other developers who might have done a better job describing why they are so excited to work with Elixir and what problems does it solve for them.
+Before 2015 is over I decided to compile a list from developers who are excited to work with Elixir and what problems does it solve for them.
 </p>
 <p>
 The list is chronologically sorted from most recent to oldest articles. I hope this will be useful for anybody thinking what new programming language  to try in 2016.
 
-Cheers and please be awesome!
 </p>
 
 <hr>
