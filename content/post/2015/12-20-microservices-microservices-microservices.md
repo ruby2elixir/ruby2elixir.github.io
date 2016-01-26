@@ -19,6 +19,9 @@ This guy wants to leave the team because he feels a real loss of productivity an
 
 Why on earth is everybody all over the microservices approach? A quick google search revealed following "success" stories:
 
+## Non-Distributed Microservices
+  - http://fmontesi.blogspot.de/2015/06/non-distributed-microservices.html
+
 
 ## Microservice in Rails / Ruby
 
@@ -52,6 +55,9 @@ Successful rewrites:
 
 Against Microservices:
   - http://nicksda.apotomo.de/2015/09/the-only-alternative-to-a-rails-monolith-are-micro-services-bullshit/
+
+
+
 
 
 
