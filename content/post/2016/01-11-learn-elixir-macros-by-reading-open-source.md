@@ -3,6 +3,7 @@ date = "2016-01-11T18:36:00+01:00"
 draft = true
 title = "Learn Elixir Macros by Reading Open Source"
 author = "mindreframer"
+tags = ["macros", "best-practices"]
 +++
 
 

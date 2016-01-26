@@ -3,7 +3,11 @@ date = "2015-12-25T18:36:00+01:00"
 draft = false
 title = "Chris McCord on Meteorclub"
 author = "mindreframer"
+tags = ["phoenix", "podcast", "code-quality"]
+
 +++
+
+
 Recently I've listened to Chris McCord explaining Phoenix + Elixir on Meteorclub and he confirmed my theory of surprising code base stability for Phoenix.
 
 

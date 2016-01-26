@@ -3,6 +3,7 @@ date = "2015-12-29T18:36:00+01:00"
 draft = false
 title = "What makes Elixir so attractive for some developers?"
 author = "mindreframer"
+tags = ["motivation"]
 +++
 
 

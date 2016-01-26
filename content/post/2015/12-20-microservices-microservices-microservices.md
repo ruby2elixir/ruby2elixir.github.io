@@ -3,6 +3,7 @@ date = "2015-12-22T18:36:00+01:00"
 draft = true
 title = "Microservices - Microservices - Microservices .... Really?"
 author = "mindreframer"
+tags = ["microservices"]
 +++
 
 

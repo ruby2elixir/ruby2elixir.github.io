@@ -3,6 +3,7 @@ date = "2016-01-14T18:36:00+01:00"
 draft = false
 title = "Webpack Hot-Reloading with Phoenix"
 author = "mindreframer"
+tags = ["webpack", "phoenix"]
 +++
 
 
