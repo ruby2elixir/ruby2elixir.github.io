@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on Ruby 2 Elixir Blog</title>
+    <link>http://ruby2elixir.github.io/presentation.html</link>
+    <description>Recent content in Presentations on Ruby 2 Elixir Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://ruby2elixir.github.io/presentation.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://ruby2elixir.github.io/presentation/ruby2elixir-the-idea-behind.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/presentation/ruby2elixir-the-idea-behind.html</guid>
+      <description>&lt;p&gt;Presentation&lt;/p&gt;
+
+&lt;p&gt;Ruby2Elixir&lt;/p&gt;
+
+&lt;p&gt;@ruby2elixir
+ruby2elixir.github.io
+github.com/ruby2elixir&lt;/p&gt;
+
+&lt;p&gt;The idea behind?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/jodosha/status/646307862873001984&#34;&gt;https://twitter.com/jodosha/status/646307862873001984&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/mperham/status/684470357110046720&#34;&gt;https://twitter.com/mperham/status/684470357110046720&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/_solnic_/status/687223950607290368&#34;&gt;https://twitter.com/_solnic_/status/687223950607290368&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/searls/status/688368864833499137&#34;&gt;https://twitter.com/searls/status/688368864833499137&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/superchris/status/674267305631551488&#34;&gt;https://twitter.com/superchris/status/674267305631551488&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/billstclair/status/689548161011048448&#34;&gt;https://twitter.com/billstclair/status/689548161011048448&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/gamache/status/647113394391269377&#34;&gt;https://twitter.com/gamache/status/647113394391269377&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/pragdave/status/668266887818539008&#34;&gt;https://twitter.com/pragdave/status/668266887818539008&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/bcardarella/status/675043120053121024&#34;&gt;https://twitter.com/bcardarella/status/675043120053121024&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/bcardarella/status/669093228721913856&#34;&gt;https://twitter.com/bcardarella/status/669093228721913856&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/bcardarella/status/679382507926790153&#34;&gt;https://twitter.com/bcardarella/status/679382507926790153&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/whitequark/status/678360522727624704&#34;&gt;https://twitter.com/whitequark/status/678360522727624704&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/hubertlepicki/status/677946945541902337&#34;&gt;https://twitter.com/hubertlepicki/status/677946945541902337&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/jimfreeze/status/667695489144360960&#34;&gt;https://twitter.com/jimfreeze/status/667695489144360960&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/samsaffron/status/646568593530875904&#34;&gt;https://twitter.com/samsaffron/status/646568593530875904&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/bitsandhops/status/619518058483167232&#34;&gt;https://twitter.com/bitsandhops/status/619518058483167232&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
