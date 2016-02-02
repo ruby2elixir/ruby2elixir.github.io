@@ -18,6 +18,11 @@ The list is chronologically sorted from most recent to oldest articles. I hope t
 
 <div>
 <ul>
+  <li><strong>2016</strong></li>
+  <li><a href="#sorentwo">sorentwo.com - Caching, What is it Good For? - by Parker Selbert (2016/02)</a></li>
+  <li><a href="#qertoip">Piotr Włodarek - Elixir obsoletes Ruby, Erlang and Clojure in one go (2016/01)</a></li>
+  <li><a href="#madebymany">Stuart Eccles - What I learned migrating a Rails app to Elixir/Phoenix (2016/01)</a></li>
+  <li><strong>2015</strong></li>
   <li><a href="#amber">AmberBit - When to choose Elixir over Ruby for 2016 projects? (2015/12)</a></li>
   <li><a href="#akita">Fabio Akita - The Obligatory “Why Elixir?” Personal Take (2015/12)</a></li>
   <li><a href="#clark-kampfe">Clark Kampfe - Elixir is not Ruby (2015/11)</a></li>
@@ -33,15 +38,120 @@ The list is chronologically sorted from most recent to oldest articles. I hope t
   <li><a href="#lau-taarnskov">Lau Taarnskov - Elixir - The next big language for the web (2015⁄04) </a></li>
   <li><a href="#josh-smith">Josh Smith - Functional parallel programming in Elixir (2015⁄03)</a></li>
   <li><a href="#ken-mazaika">Ken Mazaika - Why I’m betting on Elixir (2015⁄01)</a></li>
+  <li><strong>2014</strong></li>
   <li><a href="#paul-schoenfelder">Paul Schoenfelder - What Is Elixir, and Why Do I Care? (2014⁄03)</a></li>
   <li><a href="#sasa-juric">Saša Jurić -  Why Elixir  (2014⁄01)</a></li>
   <li><a href="#renderedtext">Darko Fabijan -  Learn Elixir to stay young  (2014⁄01)</a></li>
+  <li><strong>2013</strong></li>
   <li><a href="#alexei-sholik">Alexei Sholik - Introducing Elixir (2013⁄08)</a></li>
   <li><a href="#devin-torres">Devin Torres - Elixir: It’s Not About Syntax (2013/06)</a></li>
 </ul>
 </div>
 <hr>
 
+
+<h4 id="sorentwo">Sorentwo - Caching, What is it Good For? - by Parker Selbert (2016/02) - <a href="http://sorentwo.com/2016/02/02/caching-what-is-it-good-for.html">http://sorentwo.com/2016/02/02/caching-what-is-it-good-for.html</a></h4>
+Parker Selbert is a webdeveloper with extensive knowledge about tuning Rails apps. Recently he has build a production system with Elixir and shares his experience.
+
+
+<blockquote>
+  The fact is, caching makes systems more complicated. Expiration and eviction strategies require planning, foresight, and maintenance. Caching adds additional dependencies in the form of database(s) that store all the cached data. It adds more libraries dedicated to caching and communication with said external cache. Finally, it makes personalizing content unwieldy, rarely worth the extra effort. All this extra effort is only necessary when a language can’t do the heavy lifting for you.
+</blockquote>
+...
+<blockquote>
+  For years I’ve been following the development of Elixir and using it for hobby projects. Only recently have I gotten the opportunity to build production systems with it. Now I’m completely spoiled. While I can espouse praise for the language, functional programming, the beauty of pattern matching, and the brilliance of the BEAM all day…that probably won’t be convincing. Instead, I’ll share a few benchmarks that emphasize the performance gulf between Ruby systems and an Elixir system.
+</blockquote>
+...
+
+<blockquote>
+  These response times are not characteristic of either system, they are at the extreme upper limit. Even so, serving up <strong>2.5x the records with 4.5x the data, without any caching</strong>, the Phoenix API response times are <strong>1.5x-2.5x</strong> faster.
+</blockquote>
+...
+<blockquote>
+  For several years I focused my effort on squeezing performance out of caching and serialization in the Ruby world. The libraries I’ve built have been benchmarked and micro-tuned to attain what felt like blazing fast response times. On top of the work put into the libraries there was substantial overhead in constructing APIs to work within the confines of caching. As it turns out, those response times weren’t so blazing fast after all.
+</blockquote>
+
+
+<hr>
+
+
+
+
+<h4 id="qertoip">Piotr Włodarek - Elixir obsoletes Ruby, Erlang and Clojure in one go (2016/01) - <a href="https://medium.com/@qertoip/elixir-obsoletes-ruby-erlang-and-clojure-in-one-go-605329b7b9b4#.3bptutvmt">https://medium.com/@qertoip/elixir-obsoletes-ruby-erlang-and-clojure-in-one-go-605329b7b9b4#.3bptutvmt</a></h4>
+
+Piotr Włodarek was a happy Ruby programmer and evangelist since 2005, Clojure fan since 2008 and has dabbled with Erlang in 2007.
+
+<blockquote>
+  Recently I’ve come to conclusion all these languages are now obsolete.
+  In a surprising twist Elixir supersedes all of them by delivering extremely well thought out mix of characteristics and features.
+</blockquote>
+...
+<blockquote>
+  Elixir is simply the first language since Ruby to really care about code beauty and UX of the language, libraries and ecosystem. Whether Elixir’s UX is slightly better or still slightly worse than Ruby’s is a matter of a debate. The thing is, it is definitely in the same league and should be (at least!) acceptable for a demanding Ruby programmer.
+</blockquote>
+...
+<blockquote>
+  Why care about massive concurrency in the first place? Rails apps we’ve been writing for the last ten years work just fine… Except they don’t once we enter the real-time web / IoT era.
+</blockquote>
+...
+
+<blockquote>
+  <h3>Functional yet practical</h3>
+  Elixir is among the most practical functional languages to date. It cherry-picked some of the best Clojure features — efficient, immutable data structures, optional lazy evaluation, protocols and records. Contrary to Clojure it also enjoys true tail call optimization and the pipeline operator. Finally, it has a pleasant, modern, Ruby-like syntax, a rare gem among functional languages.
+</blockquote>
+...
+<blockquote>
+  <h3>Full macro system</h3>
+  Elixir is close to being homoiconic. Everyday syntax is a just bit of sugar on top of Elixir data structures. The way from code to its representation is direct and clear. Elixir supports full macros known from Lisp and Clojure without the torture of parentheses-driven syntax.
+</blockquote>
+...
+<blockquote>
+  <h3>Summary</h3>
+  Why would you choose Ruby over Elixir? Certainly mature libraries give Ruby huge productivity boost and are the only possible reason to still consider Ruby over Elixir. But it gets less and less important every day as Elixir packages pop-up like gems in Ruby’s golden era. What about Rails? Well, there is an excellent Phoenix contender.
+  Why would you choose Clojure over Elixir? It’s really hard to justify except when you need to run on JVM for other reasons.
+  Why would you choose Erlang over Elixir? You wouldn’t. Elixir is an almost-strict superset of Erlang’s offering.
+</blockquote>
+
+<hr>
+
+
+<h4 id="madebymany">Stuart Eccles - What I learned migrating a Rails app to Elixir/Phoenix (2016/01) <a href="https://medium.com/@stueccles/what-i-learned-migrating-a-rails-app-to-elixir-phoenix-f707436749aa#.y03lsf9ln">https://medium.com/@stueccles/what-i-learned-migrating-a-rails-app-to-elixir-phoenix-f707436749aa#.y03lsf9ln</a></h4>
+
+Stuart Eccles is CTO and Co-Founder of digital product innovation accelerator @madebymany making new stuff out of the internet.
+
+<blockquote>
+  I’ve been keen on Elixir for a while now. For us at Made by Many the promise of the productivity of Ruby without compromising on raw performance and scalability is rapidly making it a prime candidate for our go-to server-side language of choice.
+</blockquote>
+...
+<blockquote>
+  <h3>Lose the Object Orientated mindset, especially around models.</h3>
+  You are thinking in small functions that you string together. Once you make the transition I’ve found it is actually easier to understand what is going on. There is just a lot less magic to wrap your head around.
+</blockquote>
+...
+<blockquote>
+  <h3>There are some integrations you are going to have to write yourself</h3>
+  The Elixir ecosystem isn’t developed to a point where there are libraries to integrate with every service you may use. You might have to roll up your sleeves to make that integration library yourself. But this is how we grow the ecosystem.
+  There are also far fewer utility extension and helper libraries available for Phoenix but so far I’ve found that language features do a lot to overcome this.
+</blockquote>
+...
+
+<blockquote>
+  <h3>Some things should just be done completely differently in Elixir/Phoenix</h3>
+  There are some software design patterns you just should do differently when creating an Elixir app.
+  For instance when you think asynchronous, (...) you can just wrap a function in a Task.async or create your own OTP application
+</blockquote>
+...
+<blockquote>
+  <h3>No Scope</h3>
+  Ecto doesn’t use scopes. Instead we use a pattern of storing queries in the module and then composing them when needed, see http://blog.drewolson.org/composable-queries-ecto/
+</blockquote>
+...
+<blockquote>
+  <h3>Summary</h3>
+  So i’m sure there will be many more transition patterns that are useful in migrating a Rails app but so far I’ve found the process not only pretty painless but also feels vastly superior. Not to mention just how much faster the Elixir app is; response times under 100ms bring joy to the heart.
+</blockquote>
+
+<hr>
 
 <h4 id="amber">Ruby team at AmberBit  - Announcing Elixir Cocktails + When to choose Elixir over Ruby for 2016 projects?</h4>
 - https://www.amberbit.com/blog/2015/7/24/announcing-elixir-cocktails/
