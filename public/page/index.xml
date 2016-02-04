@@ -10,12 +10,32 @@
     <atom:link href="http://ruby2elixir.github.io/page.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>About</title>
+      <title>Our Goal</title>
       <link>http://ruby2elixir.github.io/page/about.html</link>
       <pubDate>Tue, 24 Nov 2015 18:35:51 +0100</pubDate>
       
       <guid>http://ruby2elixir.github.io/page/about.html</guid>
-      <description>&lt;p&gt;An initiative to help you move your Rails application to Elixir&lt;/p&gt;
+      <description>&lt;p&gt;
+Helping fellow Ruby developers to find a quick and painless access to Elixir / Phoenix language / tooling / libraries, all while leveraging currently present Ruby / Rails skills and best practices.
+&lt;/p&gt;
+
+&lt;p&gt;
+  This should be a resource to show your teammates and managers to convince them to give Elixir a try for that new internal / side  / hackathon project you&#39;re planning soon.
+&lt;/p&gt;
+
+&lt;p&gt;
+  It&#39;s a humble beginning now, but later we want to give free Elixir workshops, collect best learning materials and presentations to really smoothen the dive-in into exciting new opportunities.
+  We&#39;re actively looking for people wanting to foster Elixir adoption among our team-mates.
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;h3&gt;Links&lt;/h3&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;https://github.com/ruby2elixir&#34;&gt;Ruby2Elixir Github Team&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://ruby2elixir.slack.com/&#34;&gt;Ruby2Elixir Slack Team&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;https://ruby2elixir.hackpad.com/&#34;&gt;Ruby2Elixir Hackpad Team&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/p&gt;
 </description>
     </item>
     
