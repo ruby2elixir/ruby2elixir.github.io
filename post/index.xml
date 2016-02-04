@@ -365,7 +365,7 @@ compose:
 
 &lt;p&gt;It executes full real CRUD controller tests for 60 controllers in one application.&lt;/p&gt;
 
-&lt;p&gt;An uncached initial CI test take something around 2 minutes.
+&lt;p&gt;An uncached initial CI test takes something around 2 minutes.
 
 
 
