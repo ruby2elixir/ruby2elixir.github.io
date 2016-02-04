@@ -29,7 +29,7 @@ uglyurls     = true
     twitter          = "https://twitter.com/mindreframer"
     twitter_username = 'mindreframer'
     gplus            = "https://plus.google.com/+mindreframer"
-    bio              = "Hopeless practitioner in search for the perfect prog language..."
+    bio              = "Ruby/DevOps guy with frontend skills enjoying Elixir a bit too much..."
 
 
 [taxonomies]
