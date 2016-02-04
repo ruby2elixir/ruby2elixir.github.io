@@ -332,7 +332,7 @@ build:
 &lt;li&gt;install postgresql-client (so psql is present)&lt;/li&gt;
 &lt;li&gt;run ecto.migrate for both test DBs&lt;/li&gt;
 &lt;li&gt;use PosgreSQL Docker image in compose block&lt;/li&gt;
-&lt;li&gt;cache the dependencies + the _build folder (maybe too fragile, needs real life experience over long time&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;cache the dependencies + the _build folder (maybe too fragile, needs real life experience over longer time&amp;hellip;)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cat .drone.yml
