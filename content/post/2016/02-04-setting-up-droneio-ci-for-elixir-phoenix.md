@@ -179,7 +179,7 @@ To make it even more interesting we're gonna use an umbrella project with two Ph
 
 So, to recap:
 
-  - install postgresql-client (so pqsl is present)
+  - install postgresql-client (so psql is present)
   - run ecto.migrate for both test DBs
   - use PosgreSQL Docker image in compose block
   - cache the dependencies + the _build folder (maybe too fragile, needs real life experience over long time...)
@@ -236,3 +236,23 @@ Please leave any feedback whether you've found that article helpful or if there 
 
 Best,
 Roman
+
+<hr>
+
+#### More links about Drone.io:
+
+Plugins:
+
+  - http://addons.drone.io/
+  - https://github.com/drone-plugins
+
+
+Community:
+
+  - https://gitter.im/drone/drone
+  - https://discuss.drone.io/
+
+
+Examples:
+
+ - https://github.com/drone-demos/drone-with-elixir
