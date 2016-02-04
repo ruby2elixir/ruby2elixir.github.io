@@ -182,7 +182,7 @@ So, to recap:
   - install postgresql-client (so psql is present)
   - run ecto.migrate for both test DBs
   - use PosgreSQL Docker image in compose block
-  - cache the dependencies + the _build folder (maybe too fragile, needs real life experience over long time...)
+  - cache the dependencies + the _build folder (maybe too fragile, needs real life experience over longer time...)
 
 
 ```bash
