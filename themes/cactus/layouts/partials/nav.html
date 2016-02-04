@@ -7,7 +7,9 @@
 	{{ if ne $url "about/" }}
 		<a href='{{ .Site.BaseURL }}page/about.html'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 	{{ end }}
-		<a href='{{ .Site.BaseURL }}page/success-stories.html'>Success Stories</a>
+		<!-- <a href='{{ .Site.BaseURL }}page/success-stories.html'>Success Stories</a> -->
+		<a href='{{ .Site.BaseURL }}posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html'>Success Stories</a>
+
 
 
 	{{ if .Site.Params.enableRSS }}
