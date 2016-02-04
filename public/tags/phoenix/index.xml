@@ -329,7 +329,7 @@ build:
 &lt;p&gt;So, to recap:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;install postgresql-client (so pqsl is present)&lt;/li&gt;
+&lt;li&gt;install postgresql-client (so psql is present)&lt;/li&gt;
 &lt;li&gt;run ecto.migrate for both test DBs&lt;/li&gt;
 &lt;li&gt;use PosgreSQL Docker image in compose block&lt;/li&gt;
 &lt;li&gt;cache the dependencies + the _build folder (maybe too fragile, needs real life experience over long time&amp;hellip;)&lt;/li&gt;
@@ -446,6 +446,30 @@ compose:
 
 &lt;p&gt;Best,
 Roman&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h4 id=&#34;more-links-about-drone-io:b11a2c73716529ff1d7a5a8613a5808d&#34;&gt;More links about Drone.io:&lt;/h4&gt;
+
+&lt;p&gt;Plugins:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://addons.drone.io/&#34;&gt;http://addons.drone.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/drone-plugins&#34;&gt;https://github.com/drone-plugins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Community:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitter.im/drone/drone&#34;&gt;https://gitter.im/drone/drone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://discuss.drone.io/&#34;&gt;https://discuss.drone.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/drone-demos/drone-with-elixir&#34;&gt;https://github.com/drone-demos/drone-with-elixir&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
