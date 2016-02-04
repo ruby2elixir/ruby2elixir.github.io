@@ -216,7 +216,7 @@ Here is the example application, that we're going to test - https://github.com/r
 
 It executes full real CRUD controller tests for 60 controllers in one application.
 
-An uncached initial CI test take something around 2 minutes.
+An uncached initial CI test takes something around 2 minutes.
 {{< post_image src="2016/drone_setup_drone_uncached_run.png" width="550" >}}
 
 <hr>
