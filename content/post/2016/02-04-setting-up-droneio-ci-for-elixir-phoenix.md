@@ -1,7 +1,7 @@
 +++
 date = "2016-01-14T18:36:00+01:00"
 draft = false
-title = "Setting Up Drone.IO CI for Elixir and Phoenix"
+title = "Setting Up Drone.io CI for Elixir and Phoenix"
 author = "mindreframer"
 tags = ["testing", "phoenix"]
 +++
