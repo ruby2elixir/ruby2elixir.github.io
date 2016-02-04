@@ -1,14 +1,20 @@
+<!--
+    example: (in double bracket, like \{\{\}\})
+    < post_image src="2016/tweet_droneio_matrix_build.png" full_scale=true >
+-->
+
 {{ $src        := .Get "src" }}
 {{ $title      := .Get "title" }}
 {{ $height     := .Get "height" }}
 {{ $width      := .Get "width" }}
 {{ $fullScale  := .Get "full_scale" }}
+{{ $centered   := .Get "centered" }}
 
 <figure class="full_scale">
     <img class="
-    {{ with $fullScale }}
+    {{ if  $fullScale }}
       full_scale
-    {{ else }}
+    {{ else if $centered }}
       centered
     {{ end }}
     " src="/media/posts/{{$src}}"
