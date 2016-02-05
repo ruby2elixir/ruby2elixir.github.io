@@ -10,7 +10,7 @@
     <atom:link href="http://ruby2elixir.github.io/tags/testing.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Setting Up Drone.IO CI for Elixir and Phoenix</title>
+      <title>Setting Up Drone.io CI for Elixir and Phoenix</title>
       <link>http://ruby2elixir.github.io/posts/2016/01-14-setting-up-drone.io-ci-for-elixir-and-phoenix.html</link>
       <pubDate>Thu, 14 Jan 2016 18:36:00 +0100</pubDate>
       
