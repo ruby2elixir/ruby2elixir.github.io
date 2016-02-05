@@ -6,15 +6,15 @@
     <description>Recent content on Ruby 2 Elixir Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2016 18:36:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 04 Feb 2016 18:36:00 +0100</lastBuildDate>
     <atom:link href="http://ruby2elixir.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Setting Up Drone.io CI for Elixir and Phoenix</title>
-      <link>http://ruby2elixir.github.io/posts/2016/01-14-setting-up-drone.io-ci-for-elixir-and-phoenix.html</link>
-      <pubDate>Thu, 14 Jan 2016 18:36:00 +0100</pubDate>
+      <link>http://ruby2elixir.github.io/posts/2016/02-04-setting-up-drone.io-ci-for-elixir-and-phoenix.html</link>
+      <pubDate>Thu, 04 Feb 2016 18:36:00 +0100</pubDate>
       
-      <guid>http://ruby2elixir.github.io/posts/2016/01-14-setting-up-drone.io-ci-for-elixir-and-phoenix.html</guid>
+      <guid>http://ruby2elixir.github.io/posts/2016/02-04-setting-up-drone.io-ci-for-elixir-and-phoenix.html</guid>
       <description>
 
 &lt;p&gt;Running your CI tests for opensource project on Travis.Ci seems like a no-brainer. Travis offers quite robust integration into Github and boasts with impressive feature set, that&amp;rsquo;s flexible and very convenient.&lt;/p&gt;
