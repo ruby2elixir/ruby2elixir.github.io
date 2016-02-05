@@ -1,5 +1,5 @@
 +++
-date = "2016-01-14T18:36:00+01:00"
+date = "2016-02-04T18:36:00+01:00"
 draft = false
 title = "Setting Up Drone.io CI for Elixir and Phoenix"
 author = "mindreframer"
