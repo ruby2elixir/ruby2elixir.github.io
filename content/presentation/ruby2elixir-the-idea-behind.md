@@ -33,3 +33,11 @@ https://twitter.com/jimfreeze/status/667695489144360960
 
 https://twitter.com/samsaffron/status/646568593530875904
 https://twitter.com/bitsandhops/status/619518058483167232
+
+
+
+
+Pipelines:
+
+
+https://dockyard.com/blog/2016/01/22/heroic-elixir-pipelines
