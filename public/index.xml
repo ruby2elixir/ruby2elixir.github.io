@@ -1518,6 +1518,81 @@ So far it&#39;s been a good ride!
     </item>
     
     <item>
+      <title>Why Even Bother to Rewrite Your Rails Application in Elixir</title>
+      <link>http://ruby2elixir.github.io/posts/2015/11-25-why-even-bother-to-rewrite-your-rails-application-in-elixir.html</link>
+      <pubDate>Wed, 25 Nov 2015 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2015/11-25-why-even-bother-to-rewrite-your-rails-application-in-elixir.html</guid>
+      <description>&lt;p&gt;Hey there, I believe that our future as web software development is going to change soon.
+There is a lot of ways to write software and I have chosen to write web applications. &lt;strong&gt;My goal is to build my own SaaS business soon and be responsible for it&lt;/strong&gt;. When you have that perspective you treat any superficial level of &lt;strong&gt;complexity as unacceptable&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is the reason why in 2007 I have learned Ruby and why I wrote my first web applications in Rails. I had to be able to &lt;strong&gt;maintain my applications in the long run&lt;/strong&gt;. To peek behind the curtain, I chose a &lt;strong&gt;path of apprenticeship&lt;/strong&gt; and joined a then young startup named &lt;strong&gt;DaWanda and watched it grow from 12 people to 200 people&lt;/strong&gt;. It grew from a single largish Rails app deployed on 5 dedicated server to a beast of multiple apps with &lt;strong&gt;slow test suites&lt;/strong&gt; and &lt;strong&gt;plenty of moving parts&lt;/strong&gt;&amp;hellip; To keep the thing running required quite a lot mental effort and it was a dedicated job in itself. You build &lt;strong&gt;abstractions upon abstractions and depend on a hefty amount of third-party libraries just to keep your application alive&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Timeouts, network partitions, lots of small inconsistencies, memory leaks, hanging processes&lt;/strong&gt; : it all becomes your daily business.&lt;/p&gt;
+
+&lt;p&gt;This is not how I envision my own applications in the future&amp;hellip; They should &lt;strong&gt;fit into my little brain&lt;/strong&gt;. They should grow with grace, be maintainable, resource-efficient, provide just the right abstractions to help me in the beginning, but &lt;strong&gt;get out of the way when I&amp;rsquo;m going against recommendations&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Playing with different languages showed some promise, but the &lt;strong&gt;lost productivity compared to Rails was hard to justify&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;That is until Elixir + Phoenix happened.&lt;/p&gt;
+
+&lt;p&gt;It was not an instant insight, rather a slow process. You discover the author&amp;rsquo;s intents while solving small problems, you gather all the small bits of wisdom in discussions, you always ask the same question: &amp;ldquo;Where is the catch? It this too good to be true?&amp;rdquo;. So, I&amp;rsquo;m a &lt;strong&gt;careful &amp;ldquo;buyer&amp;rdquo; into new technogy&lt;/strong&gt;, there is just too much &amp;ldquo;innovation&amp;rdquo; happening right now.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;in this game for a long run&lt;/strong&gt;, so &lt;strong&gt;cutting corners in the beginning only to slow down in the future&lt;/strong&gt; is not an option.&lt;/p&gt;
+
+&lt;p&gt;I also don&amp;rsquo;t want to buy into the &amp;ldquo;microservices&amp;rdquo; craziness that is all the range right now, you need many teams to compensate the trade-offs of that approach.&lt;/p&gt;
+
+&lt;p&gt;I want a technology that will help me to ship products with certain guarantees.&lt;/p&gt;
+
+&lt;p&gt;It should:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;be easily composable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;scale vertically&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;scale horizontally&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;be reliable&lt;/li&gt;
+&lt;li&gt;be introspectable&lt;/li&gt;
+&lt;li&gt;have great tooling&lt;/li&gt;
+&lt;li&gt;provide &lt;strong&gt;productivity during development&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;provide &lt;strong&gt;productivity during production&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am absolutely sure that &lt;strong&gt;Elixir/OTP&lt;/strong&gt; is currently &lt;strong&gt;THE ONLY LANGUAGE / PLATFORM&lt;/strong&gt; that gives you all that in a nice package.&lt;/p&gt;
+
+&lt;p&gt;But it is hard to convince fellow developers when they see their cozy &amp;ldquo;Ruby&amp;rdquo; world threatened. &amp;ldquo;Why?&amp;rdquo; they say. &amp;ldquo;I&amp;rsquo;m totally fine with Rails. It solves my problems and that&amp;rsquo;s enough.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Well&amp;hellip; The world is evolving. The applications of future demand to be more reliable, more realtime, much faster, cope with much more traffic from many more devices than today.&lt;/p&gt;
+
+&lt;p&gt;Rails offers no solution for distributed systems - embrace the &lt;strong&gt;majestic monolith&lt;/strong&gt;. No solution for concurrent systems - &lt;strong&gt;background jobs as a poor abstraction&lt;/strong&gt; e.g Sidekiq. No reliable solution for realtime systems - &lt;strong&gt;ActionCable is a hack&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;And it is not Rails&amp;rsquo; fault, really. Ruby as a Virtual Machine helps you in the beginning, but &lt;strong&gt;hinders you when your application matures&lt;/strong&gt;. When you outgrow that single Rails app. When it&amp;rsquo;s time to break it apart. Be prepared for the &lt;strong&gt;zoo of technologies&lt;/strong&gt; just to keep it somehow alive. And let me tell you one thing: you will probably never feel like you control the system.&lt;/p&gt;
+
+&lt;p&gt;But it&amp;rsquo;s ok, you will earn money with it. And Rails is not dying, as some might say.&lt;/p&gt;
+
+&lt;p&gt;It just got&amp;hellip; Well&amp;hellip; Old.&lt;/p&gt;
+
+&lt;p&gt;Not appropriate for the future we are about to face.&lt;/p&gt;
+
+&lt;p&gt;Ambitious, demanding apps require modern tooling and new approaches. The world is realtime.&lt;/p&gt;
+
+&lt;p&gt;It is &lt;strong&gt;hard to scale Rails apps and keep quality up&lt;/strong&gt;. Usually you&amp;rsquo;ll end up &lt;strong&gt;hiding behind caching&lt;/strong&gt;, like MemCached, Redis, Varnish, Fastly&amp;hellip; That&amp;rsquo;s it. And you&amp;rsquo;ll spent a lot of time &lt;strong&gt;ironing all the bugs that occur only in production&lt;/strong&gt; and you will have a lot of hard time doing that. You&amp;rsquo;ll have to employ &lt;strong&gt;large teams of developers later in the game to overcome limitation of Rails&lt;/strong&gt;. And maybe you&amp;rsquo;ll fine with that, because that is the current state of affairs in the industry. Many decide to &lt;strong&gt;jump ship and build microservice architectures&lt;/strong&gt;. But there is &lt;strong&gt;no free lunch&lt;/strong&gt; here, you&amp;rsquo;ll still need multiple teams of developers responsible for them. And it certainly requires quite &lt;strong&gt;a lot of unlearning and patience to become even slightly productive with that approach&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Elixir + Phoenix combo gives you both: &lt;strong&gt;write as monolithic app now, easily split up into several applications later&lt;/strong&gt;, use Erlang VM as &lt;strong&gt;operating system to write your application&lt;/strong&gt;. Currently there is &lt;strong&gt;no alternative for that approach&lt;/strong&gt; that is more elegant and efficient.&lt;/p&gt;
+
+&lt;p&gt;Watch this space closely, &lt;strong&gt;Elixir is gaining steam with incredible speed&lt;/strong&gt; and will surpass Rails in 2-3 years easily.&lt;/p&gt;
+
+&lt;p&gt;Phoenix is &lt;strong&gt;not a clone of Rails&lt;/strong&gt;, it is the ultimate combination of years of experience with demanding Rails applications combined into a very &lt;strong&gt;robust, simple, extensible and highly performant package&lt;/strong&gt;, standing on shoulders of over 30 years experience building &lt;strong&gt;highly available soft-realtime systems&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is very hard to top that.&lt;/p&gt;
+
+&lt;p&gt;Think like a professional and &lt;strong&gt;invest in your future now&lt;/strong&gt;. Go to &lt;a href=&#34;http://elixir-lang.org/learning&#34;&gt;http://elixir-lang.org/learning&lt;/a&gt; and learn Elixir, you wont regret this decision a single minute. I certainly did not!&lt;/p&gt;
+
+&lt;p&gt;Cheers and all the best,
+Roman&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Our Goal</title>
       <link>http://ruby2elixir.github.io/page/about.html</link>
       <pubDate>Tue, 24 Nov 2015 18:35:51 +0100</pubDate>
@@ -1582,6 +1657,10 @@ github.com/ruby2elixir&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/samsaffron/status/646568593530875904&#34;&gt;https://twitter.com/samsaffron/status/646568593530875904&lt;/a&gt;
 &lt;a href=&#34;https://twitter.com/bitsandhops/status/619518058483167232&#34;&gt;https://twitter.com/bitsandhops/status/619518058483167232&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pipelines:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dockyard.com/blog/2016/01/22/heroic-elixir-pipelines&#34;&gt;https://dockyard.com/blog/2016/01/22/heroic-elixir-pipelines&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
