@@ -6,8 +6,26 @@
     <description>Recent content in Posts on Ruby 2 Elixir Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Feb 2016 18:36:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2016 18:36:00 +0100</lastBuildDate>
     <atom:link href="http://ruby2elixir.github.io/post.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Presentation Elixir Berlin 2016-02 - Elixir &#43; Viralelixir.org</title>
+      <link>http://ruby2elixir.github.io/posts/2016/02-19-presentation-elixir-berlin-2016-02---elixir--viralelixir.org.html</link>
+      <pubDate>Fri, 19 Feb 2016 18:36:00 +0100</pubDate>
+      
+      <guid>http://ruby2elixir.github.io/posts/2016/02-19-presentation-elixir-berlin-2016-02---elixir--viralelixir.org.html</guid>
+      <description>&lt;p&gt;Slides from my talk yesterday for the Elixir Berlin Meetup group:&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3508978c863244a98b403fab2a70edf9&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;This marks the first public mentioning of viralelixir.org, more is to come!&lt;/p&gt;
+
+&lt;p&gt;Enjoy the slides.
+Best,
+Roman&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Setting Up Drone.io CI for Elixir and Phoenix</title>
